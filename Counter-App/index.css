@@ -1,0 +1,79 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: contain;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    width: 36mm;
+    background: darkgreen;
+}
+
+#decrement-btn {
+    width: 36mm;
+    background: maroon;
+}
+
+#reset-btn {
+    width: 36mm;
+    background: black;
+}
+
+#save-btn {
+    width: 36mm;
+    background: #2c2891;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
