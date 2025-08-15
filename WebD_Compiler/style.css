@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 5;
     background-color: #f4f4f9;
+    margin-top: 15px;
 }
 
 .container {
@@ -37,8 +38,8 @@ body {
 }
 
 .input-tab textarea {
-    width: 100%;
-    height: 150px;
+    width: 96%;
+    height: 153px;
     border: 2px solid #ccc;
     padding: 10px;
     font-family: "Courier New", Courier, monospace;
@@ -47,9 +48,9 @@ body {
 }
 
 .output-box {
-    width: 100%;
-    height: 100%;
-    border: 2px solid green;
+    width: 96%;
+    height: 96%;
+   lid green; border: 2px so
     padding: 10px;
     background-color: #fff;
     font-family: "Courier New", Courier, monospace;
