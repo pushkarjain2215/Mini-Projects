@@ -4,4 +4,4 @@ This repo contains all the mini projects I practiced while learning Full Stack D
 
 1. Counter App : https://verdant-croissant-573747.netlify.app/
 2. WebD Compiler : https://golden-choux-daa8c8.netlify.app/
-
+3. BlackJack Game : https://tubular-khapse-7a9e53.netlify.app/
