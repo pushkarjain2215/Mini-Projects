@@ -140,6 +140,17 @@ button {
     color: #c7d2fe;
 }
 
+.page-title-2 {
+    position: absolute;
+    top: 72px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #c7d2fe;
+}
+
 /* DEFAULT CENTER MODE */
 body {
     align-items: center;
