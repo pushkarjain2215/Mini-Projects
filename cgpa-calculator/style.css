@@ -14,10 +14,13 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Inter, sans-serif;
     background: var(--bg);
     color: var(--text);
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+    /* VERY IMPORTANT */
+    min-height: 100svh;
+    padding-top: env(safe-area-inset-top);
 }
 
 /* APP */
@@ -26,6 +29,9 @@ body {
     max-width: 420px;
     padding: 24px;
     text-align: center;
+
+    /* IMPORTANT */
+    margin-top: 24px;
 }
 
 /* CIRCLE */
@@ -136,26 +142,35 @@ button {
 
 /* DEFAULT CENTER MODE */
 body {
-  align-items: center;
+    align-items: center;
 }
 
 /* KEYBOARD OPEN MODE */
 body.keyboard-open {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 /* Safe spacing when keyboard open */
 body.keyboard-open .app {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 /* Extra shrink + safety */
 body.keyboard-open .circle {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 body.keyboard-open .circle-inner {
-  width: 160px;
-  height: 160px;
+    width: 160px;
+    height: 160px;
+}
+
+body.keyboard-open .circle {
+    transform: scale(0.85);
+    margin-bottom: 12px;
+}
+
+.circle {
+    transition: transform 0.25s ease;
 }
