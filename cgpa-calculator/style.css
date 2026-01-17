@@ -133,3 +133,29 @@ button {
     letter-spacing: 0.5px;
     color: #c7d2fe;
 }
+
+/* DEFAULT CENTER MODE */
+body {
+  align-items: center;
+}
+
+/* KEYBOARD OPEN MODE */
+body.keyboard-open {
+  align-items: flex-start;
+}
+
+/* Safe spacing when keyboard open */
+body.keyboard-open .app {
+  margin-top: 40px;
+}
+
+/* Extra shrink + safety */
+body.keyboard-open .circle {
+  width: 200px;
+  height: 200px;
+}
+
+body.keyboard-open .circle-inner {
+  width: 160px;
+  height: 160px;
+}

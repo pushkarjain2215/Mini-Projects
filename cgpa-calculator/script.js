@@ -67,4 +67,15 @@ function nextSubject() {
 
     marksInput.value = "";
     marksInput.focus();
+
+    if (window.visualViewport) {
+        const baseHeight = window.innerHeight;
+
+        window.visualViewport.addEventListener("resize", () => {
+            const keyboardOpen =
+                window.visualViewport.height < baseHeight * 0.75;
+
+            document.body.classList.toggle("keyboard-open", keyboardOpen);
+        });
+    }
 }
