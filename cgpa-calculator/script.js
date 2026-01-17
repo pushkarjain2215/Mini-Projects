@@ -68,14 +68,23 @@ function nextSubject() {
     marksInput.value = "";
     marksInput.focus();
 
-    if (window.visualViewport) {
-        const baseHeight = window.innerHeight;
+    // if (window.visualViewport) {
+    //     const baseHeight = window.innerHeight;
 
-        window.visualViewport.addEventListener("resize", () => {
-            const keyboardOpen =
-                window.visualViewport.height < baseHeight * 0.75;
+    //     window.visualViewport.addEventListener("resize", () => {
+    //         const keyboardOpen =
+    //             window.visualViewport.height < baseHeight * 0.75;
 
-            document.body.classList.toggle("keyboard-open", keyboardOpen);
-        });
-    }
+    //         document.body.classList.toggle("keyboard-open", keyboardOpen);
+    //     });
+    // }
+
+    // INPUT FOCUS BASED FIX (MOST RELIABLE)
+    marksInput.addEventListener("focus", () => {
+        document.body.classList.add("input-active");
+    });
+
+    marksInput.addEventListener("blur", () => {
+        document.body.classList.remove("input-active");
+    });
 }
