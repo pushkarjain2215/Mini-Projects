@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="page-title">
+        GGSIPU B.Tech SEM 03 SGPA Calculator
+    </h1>
+
+
+    <div class="app">
+        <div class="circle" id="circle">
+            <div class="circle-inner">
+                <div class="progress-text" id="progress">Subject 1 of 10</div>
+                <div class="subject" id="subject">Computational Methods</div>
+            </div>
+        </div>
+
+        <input type="number" id="marks" placeholder="Enter marks" inputmode="numeric" autofocus>
+
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <!-- SGPA MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2>Your SGPA</h2>
+            <div class="sgpa" id="finalSGPA">0.000</div>
+            <button onclick="location.reload()">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

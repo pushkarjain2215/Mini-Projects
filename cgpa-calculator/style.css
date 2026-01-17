@@ -1,0 +1,135 @@
+:root {
+    --primary: #4f46e5;
+    --bg: #0f172a;
+    --card: #020617;
+    --text: #e5e7eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Inter, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* APP */
+.app {
+    width: 100%;
+    max-width: 420px;
+    padding: 24px;
+    text-align: center;
+}
+
+/* CIRCLE */
+.circle {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    background: conic-gradient(var(--primary) 0deg, #1e293b 0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.circle-inner {
+    width: 210px;
+    height: 210px;
+    background: var(--card);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-text {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.subject {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 6px;
+    padding: 0 12px;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 14px;
+    border: none;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* BUTTON */
+button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    background: var(--primary);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    background: white;
+    color: #111827;
+    padding: 32px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 320px;
+}
+
+.modal-box h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.sgpa {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 16px 0;
+}
+
+.page-title {
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #c7d2fe;
+}
