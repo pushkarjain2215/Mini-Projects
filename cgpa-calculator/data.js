@@ -1,4 +1,33 @@
 const SYLLABUS = {
+    SEM1: {
+        "With Electrical Science": [
+            { name: "Applied Chemistry", credits: 3 },
+            { name: "Applied Physics - I", credits: 3 },
+            { name: "Electrical Science", credits: 3 },
+            { name: "Applied Mathematics - I", credits: 4 },
+            { name: "Indian Constitution", credits: 2 },
+            { name: "Human Values and Ethics", credits: 1 },
+            { name: "Manufacturing Process", credits: 4 },
+            { name: "Physics - I Lab", credits: 1 },
+            { name: "Applied Chemistry Lab", credits: 1 },
+            { name: "Engineering Graphics - I", credits: 2 },
+            { name: "Electrical Science Lab", credits: 1 },
+        ],
+
+        "With Environmental Studies": [
+            { name: "Programming in 'C'", credits: 3 },
+            { name: "Applied Physics - I", credits: 3 },
+            { name: "Environmental Studies", credits: 3 },
+            { name: "Applied Mathematics - I", credits: 4 },
+            { name: "Communication Skills", credits: 3 },
+            { name: "Manufacturing Process", credits: 4 },
+            { name: "Physics - I Lab", credits: 1 },
+            { name: "Programming in 'C' Lab", credits: 1 },
+            { name: "Engineering Graphics - I", credits: 2 },
+            { name: "Environmental Studies Lab", credits: 1 },
+        ],
+    },
+
     SEM3: {
         CSE: [
             { name: "Computational Methods", credits: 4 },
