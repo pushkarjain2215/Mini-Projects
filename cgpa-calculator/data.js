@@ -193,7 +193,7 @@ const SYLLABUS = {
             },
         ],
 
-        ME: [
+        MAE: [
             { name: "Computational Methods", credits: 4 },
             { name: "Indian Knowledge System", credits: 2 },
             { name: "Theory of Machines", credits: 4 },

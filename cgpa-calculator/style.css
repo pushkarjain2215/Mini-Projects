@@ -38,10 +38,15 @@ body {
     text-align: center;
 }
 
+.select-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px; /* Maintain some bottom margin for the group */
+}
+
 .select-group select {
-    width: 100%;
+    width: calc(50% - 5px); /* Take up 50% of the width minus half the gap */
     padding: 12px;
-    margin-bottom: 14px;
     border-radius: 12px;
     border: none;
     font-size: 15px;
