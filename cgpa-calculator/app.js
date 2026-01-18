@@ -182,12 +182,14 @@ shareBtn.addEventListener("click", () => {
     shareMeta.innerText = `${semSelect.value} • ${branchSelect.value}`;
     shareSGPA.innerText = `SGPA ${finalSGPA.innerText}`;
 
-    html2canvas(shareCard, { scale: 2 }).then((canvas) => {
-        const link = document.createElement("a");
-        link.download = "SGPA_Result.jpg";
-        link.href = canvas.toDataURL("image/jpeg", 0.95);
-        link.click();
-    });
+    html2canvas(shareCard, { scale: 2, backgroundColor: "black" }).then(
+        (canvas) => {
+            const link = document.createElement("a");
+            link.download = "SGPA_Result.jpg";
+            link.href = canvas.toDataURL("image/jpeg", 0.95);
+            link.click();
+        },
+    );
 });
 
 /* ---------- PROGRESS CIRCLE ---------- */
