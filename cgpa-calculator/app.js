@@ -82,12 +82,16 @@ marksInput.addEventListener("keydown", (e) => {
 });
 
 /* ---------- SUBMIT MARKS ---------- */
+function keepKeyboardOpen() {
+    setTimeout(() => {
+        marksInput.focus({ preventScroll: true });
+    }, 0);
+}
+
 function submitMarks() {
     const marks = parseInt(marksInput.value, 10);
-
     if (isNaN(marks) || marks < 0 || marks > 100) return;
 
-    /* EDIT MODE */
     if (editIndex !== null) {
         marksStore[editIndex] = marks;
         editIndex = null;
@@ -96,7 +100,6 @@ function submitMarks() {
         return;
     }
 
-    /* NORMAL MODE */
     marksStore.push(marks);
     index++;
 
@@ -111,6 +114,8 @@ function submitMarks() {
 
     marksInput.value = "";
     updateCircle();
+
+    keepKeyboardOpen(); // 🔥 IMPORTANT
 }
 
 /* ---------- REVIEW ---------- */
