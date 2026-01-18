@@ -181,13 +181,28 @@ shareBtn.addEventListener("click", () => {
     shareMeta.innerText = `${semSelect.value} • ${branchSelect.value}`;
     shareSGPA.innerText = `SGPA ${finalSGPA.innerText}`;
 
-    
     html2canvas(shareCard, { scale: 2, backgroundColor: "black" }).then(
         (canvas) => {
-            const link = document.createElement("a");
-            link.download = "SGPA_Result.jpg";
-            link.href = canvas.toDataURL("image/jpeg", 0.95);
-            link.click();
+            if (navigator.share) {
+                canvas.toBlob((blob) => {
+                    const file = new File([blob], "SGPA_Result.jpg", {
+                        type: "image/jpeg",
+                    });
+                    navigator
+                        .share({
+                            title: "My Semester Result",
+                            text: `SGPA for ${semSelect.value} is ${finalSGPA.innerText}`,
+                            files: [file],
+                        })
+                        .then(() => console.log("Successful share"))
+                        .catch((error) => console.log("Error sharing", error));
+                }, "image/jpeg");
+            } else {
+                const link = document.createElement("a");
+                link.download = "SGPA_Result.jpg";
+                link.href = canvas.toDataURL("image/jpeg", 0.95);
+                link.click();
+            }
         },
     );
 });
