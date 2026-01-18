@@ -81,6 +81,10 @@ marksInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") submitMarks();
 });
 
+marksInput.addEventListener("focus", () => {
+    marksInput.scrollIntoView({ block: "center" });
+});
+
 /* ---------- SUBMIT MARKS ---------- */
 function submitMarks() {
     const marks = parseInt(marksInput.value, 10);
