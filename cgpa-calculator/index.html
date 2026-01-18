@@ -17,8 +17,7 @@
         <div class="select-group">
             <select id="semSelect">
                 <option value="">Select Semester</option>
-                <option value="SEM3">SEM 03</option>
-                <!-- <option value="SEM4">SEM 04</option> -->
+                <option value="SEM3">Semester 3</option>
             </select>
 
             <select id="branchSelect" disabled>
@@ -33,13 +32,25 @@
             </div>
         </div>
 
-        <input type="number" id="marks" placeholder="Enter Marks" min="0" max="100" disabled />
+        <input type="number" id="marks" placeholder="Enter marks (0–100)" min="0" max="100" disabled />
 
         <button id="nextBtn" disabled>Next</button>
 
     </div>
 
-    <div class="modal" id="modal">
+    <!-- REVIEW SCREEN -->
+    <div class="modal" id="reviewModal">
+        <div class="modal-box review-box">
+            <h2>Review Your Entries</h2>
+
+            <div id="reviewList"></div>
+
+            <button id="confirmBtn">Confirm & Calculate SGPA</button>
+        </div>
+    </div>
+
+    <!-- RESULT -->
+    <div class="modal" id="resultModal">
         <div class="modal-box">
             <h2>Your SGPA</h2>
             <div class="sgpa" id="finalSGPA">0.000</div>
@@ -48,6 +59,7 @@
         </div>
     </div>
 
+    <!-- SHARE CARD -->
     <div id="shareCard">
         <h2>GGSIPU B.Tech</h2>
         <p id="shareMeta"></p>
