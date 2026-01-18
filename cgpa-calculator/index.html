@@ -2,43 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SGPA Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GGSIPU SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <h1 class="page-title">
-        GGSIPU B.Tech SEM 03 SGPA Calculator
-    </h1>
-    <h1 class="page-title-2">CS/IT Branches</h1>
-
+    <h1 class="page-title">GGSIPU B.Tech SGPA Calculator</h1>
 
     <div class="app">
+
+        <div class="select-group">
+            <select id="semSelect">
+                <option value="">Select Semester</option>
+                <option value="SEM3">SEM 03</option>
+                <!-- <option value="SEM4">SEM 04</option> -->
+            </select>
+
+            <select id="branchSelect" disabled>
+                <option value="">Select Branch</option>
+            </select>
+        </div>
+
         <div class="circle" id="circle">
             <div class="circle-inner">
-                <div class="progress-text" id="progress">Subject 1 of 10</div>
-                <div class="subject" id="subject">Computational Methods</div>
+                <div class="progress-text" id="progress">—</div>
+                <div class="subject" id="subject">Select semester & branch</div>
             </div>
         </div>
 
-        <input type="number" id="marks" placeholder="Enter marks" inputmode="numeric" autofocus>
+        <input type="number" id="marks" placeholder="Enter Marks" min="0" max="100" disabled />
 
-        <button id="nextBtn">Next</button>
+        <button id="nextBtn" disabled>Next</button>
+
     </div>
 
-    <!-- SGPA MODAL -->
     <div class="modal" id="modal">
         <div class="modal-box">
             <h2>Your SGPA</h2>
             <div class="sgpa" id="finalSGPA">0.000</div>
+            <button id="shareBtn">Save / Share Result</button>
             <button onclick="location.reload()">Restart</button>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <div id="shareCard">
+        <h2>GGSIPU B.Tech</h2>
+        <p id="shareMeta"></p>
+        <hr>
+        <div id="shareSubjects"></div>
+        <hr>
+        <h1 id="shareSGPA"></h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
