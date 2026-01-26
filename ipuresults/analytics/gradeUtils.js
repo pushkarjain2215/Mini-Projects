@@ -11,4 +11,17 @@ function getGradePoint(marks) {
     return 0;
 }
 
-module.exports = { getGradePoint };
+function getGrade(marks) {
+    const m = Number(marks);
+
+    if (m >= 90) return "O";
+    if (m >= 75) return "A+";
+    if (m >= 65) return "A";
+    if (m >= 55) return "B+";
+    if (m >= 50) return "B";
+    if (m >= 45) return "C";
+    if (m >= 40) return "P";
+    return "F";
+}
+
+module.exports = { getGradePoint, getGrade };

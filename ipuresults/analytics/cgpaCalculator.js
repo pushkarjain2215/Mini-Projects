@@ -1,4 +1,4 @@
-const { getGradePoint } = require("./gradeUtils");
+const { getGradePoint, getGrade } = require("./gradeUtils");
 const { normalize } = require("./creditLoader");
 
 function calculateAnalytics(scrapedSubjects, creditMaps) {
@@ -37,12 +37,19 @@ function calculateAnalytics(scrapedSubjects, creditMaps) {
         }
 
         semesterWise[sem].subjects.push({
-            code: sub.paperCode,
+            paperCode: sub.paperCode,
+            code: sub.paperCode, // Keep for backward compatibility
             subjectName: sub.subjectName,
+            internal: sub.internal || "0",
+            external: sub.external || "0",
+            total: sub.total || marks.toString(),
             marks,
             credits,
             gradePoint,
             creditPoints,
+            grade: getGrade(marks),
+            exam: sub.exam || "",
+            declaredDate: sub.declaredDate || "",
         });
 
         semesterWise[sem].totalCredits += credits;

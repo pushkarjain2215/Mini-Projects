@@ -49,12 +49,29 @@ body {
 
 .output-box {
     width: 96%;
-    height: 96%;
-   lid green; border: 2px so
+    height: 48%; /* Adjusted for console output */
     padding: 10px;
     background-color: #fff;
     font-family: "Courier New", Courier, monospace;
     color: #333;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+}
+
+#console-output {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+
+#console {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    height: 100%;
+    overflow-y: auto;
+    white-space: pre-wrap;
 }
 
 .button {
