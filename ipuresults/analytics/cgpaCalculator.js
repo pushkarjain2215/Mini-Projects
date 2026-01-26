@@ -1,19 +1,31 @@
 const { getGradePoint } = require("./gradeUtils");
+const { normalize } = require("./creditLoader");
 
-function calculateAnalytics(scrapedSubjects, creditMap) {
+function calculateAnalytics(scrapedSubjects, creditMaps) {
+    const { byCode, byName } = creditMaps;
+
     const semesterWise = {};
-    let totalCreditPoints = 0;
     let totalCredits = 0;
+    let totalCreditPoints = 0;
 
     for (const sub of scrapedSubjects) {
         const sem = sub.semester;
-        const code = sub.paperCode;
         const marks = Number(sub.total);
-
-        if (!creditMap[code]) continue;
-
-        const credits = creditMap[code].credits;
         const gradePoint = getGradePoint(marks);
+
+        let creditEntry = byCode[sub.paperCode];
+
+        // fallback by exact normalized subject name
+        if (!creditEntry) {
+            creditEntry = byName[normalize(sub.subjectName)];
+        }
+
+        if (!creditEntry) {
+            console.warn("CREDIT NOT FOUND:", sub.paperCode, sub.subjectName);
+            continue;
+        }
+
+        const credits = creditEntry.credits;
         const creditPoints = credits * gradePoint;
 
         if (!semesterWise[sem]) {
@@ -25,7 +37,7 @@ function calculateAnalytics(scrapedSubjects, creditMap) {
         }
 
         semesterWise[sem].subjects.push({
-            code,
+            code: sub.paperCode,
             subjectName: sub.subjectName,
             marks,
             credits,
@@ -35,12 +47,10 @@ function calculateAnalytics(scrapedSubjects, creditMap) {
 
         semesterWise[sem].totalCredits += credits;
         semesterWise[sem].totalCreditPoints += creditPoints;
-
         totalCredits += credits;
         totalCreditPoints += creditPoints;
     }
 
-    // Calculate SGPA
     for (const sem in semesterWise) {
         const s = semesterWise[sem];
         s.sgpa = Number((s.totalCreditPoints / s.totalCredits).toFixed(2));
