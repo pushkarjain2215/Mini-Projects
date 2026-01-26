@@ -1,895 +1,895 @@
 Code,Paper Name,Credits
-ES-101,Programming in ‘C’,3
-BS-103,Applied Chemistry,3
-BS-105,Applied Physics I,3
-ES-107,Electrical Science,3
-BS-109,Environmental Studies,3
-BS-111,Applied Mathematics I,4
-HS-113,Communication Skills,3
-HS-115,Indian Constitution,2
-HS-117,Human Values and Ethics,1
-ES-119,Manufacturing Process,4
-BS-151,Physics I Lab,1
-ES-153,Programming in ‘C’ Lab,1
-BS-155,Applied Chemistry Lab,1
-ES-157,Engineering Graphics I,2
-ES-159,Electrical Science Lab,1
-BS-161,Environmental Studies Lab,1
-ES-102,Programming in ‘C’,3
-BS-104,Applied Chemistry,3
-BS-106,Applied Physics II,3
-ES-108,Electrical Science,3
-BS-110,Environmental Studies,3
-BS-112,Applied Mathematics II,4
-HS-114,Communication Skills,3
-HS-116,Indian Constitution,2
-HS-118,Human Values and Ethics,1
-ES-114,Engineering Mechanics,3
-BS-152,Physics II Lab,1
-ES-154,Programming in ‘C’ Lab,1
-BS-156,Applied Chemistry Lab,1
-ES-158,Engineering Graphics II,1
-ES-160,Electrical Science Lab,1
-BS-162,Environmental Studies Lab,1
-ES-164,Workshop Practice,2
-ES-201,Computational Methods,4
-HS-203,Indian Knowledge System,2
-CIC-205,Discrete Mathematics,4
-ECC-207,Digital Logic and Computer Design,4
-CIC-209,Data Structures,4
-CIC-211,Object Oriented Programming using C++,4
-ES-251,Computational Methods Lab,1
-ECC-253,Digital Logic and Computer Design Lab,1
-CIC-255,Data Structures Lab,1
-CIC-257,Object Oriented Programming using C++ Lab,1
-BS-202,"Probability, Statistics and Linear Programming",4
-HS-204,Technical Writing,2
-CIC-206,Theory of Computation,4
-EEC-208,Circuits and Systems,4
-CIC-210,Database Management Systems,4
-CIC-212,Programming in Java,4
-BS-252,"Probability, Statistics and Linear Programming Lab",1
-EEC-254,Circuits and Systems Lab,1
-CIC-256,Database Management Systems Lab,1
-CIC-258,Programming in Java Lab,1
-HS-301,Economics for Engineers,2
-CIC-303,Compiler Design,3
-CIC-305,Operating Systems,4
-CIC-307,Computer Networks,4
-CIC-309,Software Engineering,3
-CIC-311,Design and Analysis of Algorithm,4
-CIC-351,Compiler Design Lab,1
-CIC-353,Operating Systems Lab,1
-CIC-355,Computer Networks Lab,1
-CIC-357,Software Engineering Lab,1
-CIC-359,Design and Analysis of Algorithm Lab,1
-ES-361,Summer Training Report 1,1
-MS-302,Principles of Management for Engineers,3
-HS-304,Universal Human Values,1
-PCE-1,Programme Core Elective Paper 1,4
-PCE-2,Programme Core Elective Paper 2,4
-PCE-3,Programme Core Elective Paper 3,4
-EAE-1,Emerging Area,4
-EAE-2,Emerging Area,4
-HS-352,NSS / NCC / Cultural Clubs / Technical Society,2
-MS-401,Principles of Entrepreneurship Mindset,2
-PCE-4,Programme Core Elective Paper 4,4
-PCE-5,Programme Core Elective Paper 5,4
-EAE-3,Emerging Area,4
-EAE-4,Emerging Area,4
-EAE-5,Emerging Area,4
-ES-451,Minor Project,3
-ES-453,Summer Training Report 2,1
-ES-452,Major Project Dissertation and Viva Voce,18
-ES-454,Project Progress Evaluation,2
-ES-456,Internship Report and Viva Voce,18
-ES-458,Internship Progress Evaluation,2
-CIE-306T,Advanced Java Programming,3
-CIE-306P,Advanced Java Programming Lab,1
-CIE-308T,Visual Basic .NET Programming,3
-CIE-308P,Visual Basic .NET Programming Lab,1
-CIE-312,Engineering Optimization,4
-CIE-320,Principles of Programming Languages,4
-CIE-322T,Simulation and Modelling,3
-CIE-322P,Simulation and Modelling Lab,1
-CIE-330T,Introduction to Internet of Things,3
-CIE-330P,Introduction to Internet of Things Lab,1
-CIE-332T,Programming in Python,3
-CIE-332P,Programming in Python Lab,1
-CIE-334,Quantum Computing,4
-CIE-338T,Graph Theory for Computer Science,3
-CIE-338P,Graph Theory for Computer Science Lab,1
-CIE-348T,Software Project Management,3
-CIE-348P,Software Project Management Lab,1
-CIE-354T,Introduction to Digital Signal Processing,3
-CIE-354P,Introduction to Digital Signal Processing Lab,1
-CIE-356T,Web Technologies,3
-CIE-356P,Web Technologies Lab,1
-CIE-368T,Mobile Computing,3
-CIE-368P,Mobile Computing Lab,1
-CIE-370T,Parallel Computing,3
-CIE-370P,Parallel Computing Lab,1
-CIE-374T,Artificial Intelligence,3
-CIE-374P,Artificial Intelligence Lab,1
-CIE-403T,Blockchain Technology,3
-CIE-403P,Blockchain Technology Lab,1
-CIE-405T,Data Science,3
-CIE-405P,Data Science Lab,1
-CIE-407T,Distributed Systems and Cloud Computing,3
-CIE-407P,Distributed Systems and Cloud Computing Lab,1
-CIE-409T,Social Network Analysis and Sentiment Analysis,3
-CIE-409P,Social Network Analysis and Sentiment Analysis Lab,1
-CIE-413T,Next Generation Web,3
-CIE-413P,Next Generation Web Lab,1
-CIE-417T,C#.NET Programming,3
-CIE-417P,C#.NET Programming Lab,1
-CIE-419,Intellectual Property Rights,4
-CIE-421T,Machine Learning,3
-CIE-421P,Machine Learning Lab,1
-CIE-425T,Data Warehousing and Data Mining,3
-CIE-425P,Data Warehousing and Data Mining Lab,1
-CIE-431T,Web Mining,3
-CIE-431P,Web Mining Lab,1
-CIE-314,Advanced Computer Architecture,4
-CIE-316,Database Modelling and Design,4
-CIE-328T,Analog and Digital Communications,3
-CIE-328P,Analog and Digital Communications Lab,1
-CIE-336,E Commerce and M Commerce,4
-CIE-344T,Object Oriented Analysis and Design using UML,3
-CIE-344P,Object Oriented Analysis and Design using UML Lab,1
-CIE-360T,Introduction to Information and Communication Theory,3
-CIE-360P,Introduction to Information and Communication Theory Lab,1
-CIE-366T,Middleware Technologies,3
-CIE-366P,Middleware Technologies Lab,1
-CIE-415T,Wireless Communication and Networks,3
-CIE-415P,Wireless Communication and Networks Lab,1
-CIE-427,Introduction to Mobile Ad Hoc Networks,4
-CIE-310T,Advanced DBMS,3
-CIE-310P,Advanced DBMS Lab,1
-CIE-324,Software Testing,4
-CIE-340,IT Project Management,4
-CIE-346T,Service Oriented Architecture,3
-CIE-346P,Service Oriented Architecture Lab,1
-CIE-358T,Human Computer Interface,3
-CIE-358P,Human Computer Interface Lab,1
-CIE-372T,Software Requirements and Estimation,3
-CIE-372P,Software Requirements and Estimation Lab,1
-CIE-411T,Computer Graphics and Multimedia Technologies,3
-CIE-411P,Computer Graphics and Multimedia Technologies Lab,1
-CIE-423T,Data Visualization,3
-CIE-423P,Data Visualization Lab,1
-CIE-318T,Network Security and Cryptography,3
-CIE-318P,Network Security and Cryptography Lab,1
-CIE-326T,VHDL Programming,3
-CIE-326P,VHDL Programming Lab,1
-CIE-342T,Multimedia Technologies,3
-CIE-342P,Multimedia Technologies Lab,1
-CIE-350,Windows System Administration,4
-CIE-362T,Linux System Administration,3
-CIE-362P,Linux System Administration Lab,1
-CIE-364T,Microprocessors and Interfacing,3
-CIE-364P,Microprocessors and Interfacing Lab,1
-CIE-429T,Web Intelligence and Big Data Analytics,3
-CIE-429P,Web Intelligence and Big Data Analytics Lab,1
-ECC-205,Signals and Systems,3
-ECC-209,Analog Communications,4
-ECC-211,Analog Electronics I,4
-ECC-255,Analog Communications Lab,1
-ECC-257,Analog Electronics I Lab,1
-ECC-259,Signals and Systems Lab,1
-EEC-206,Network Analysis and Synthesis,3
-EEC-210,Microprocessors and Microcontrollers,3
-EEC-212,Digital Communications,3
-EEC-214,Analog Electronics II,3
-EEC-216,Electromagnetic Field Theory,3
-EEC-256,Microprocessors and Microcontrollers Lab,1
-EEC-258,Digital Communications Lab,1
-EEC-260,Analog Electronics II Lab,1
-EEC-262,Network Analysis and Synthesis Lab,1
-ECC-303,Digital Signal Processing,4
-ECC-305,Microelectronics,3
-EEC-307,Introduction to Control Systems,3
-ECC-309,"Transmission Lines, Waveguides and Antenna Design",4
-ECC-311,Data Communication and Networking,4
-ECC-351,Digital Signal Processing Lab,1
-ECC-353,Microelectronics Lab,1
-ECC-355,Introduction to Control Systems Lab,1
-ECC-357,"Transmission Lines, Waveguides and Antenna Design Lab",1
-ECC-359,Data Communication and Networking Lab,1
-EAE-1 / OAE-1,Emerging Area or Open Area Elective Paper 1,4
-EAE-2 / OAE-2,Emerging Area or Open Area Elective Paper 2,4
-EAE-3 / OAE-3,Emerging Area or Open Area Elective Paper 3,4
-EAE-4 / OAE-4,Emerging Area or Open Area Elective Paper 4,4
-EAE-5 / OAE-5,Emerging Area or Open Area Elective Paper 5,4
-ECE-306T,VHDL Programming,3
-ECE-306P,VHDL Programming Lab,1
-ECE-308T,Digital Image Processing,3
-ECE-308P,Digital Image Processing Lab,1
-ECE-310,Mobile Communication,4
-ECE-312T,Advanced Microprocessors and Microcontroller,3
-ECE-312P,Advanced Microprocessors and Microcontroller Lab,1
-ECE-314T,RF and Microwave Engineering,3
-ECE-314P,RF and Microwave Engineering Lab,1
-ECE-316T,Mobile Computing,3
-ECE-316P,Mobile Computing Lab,1
-ECE-318T,Artificial Intelligence,3
-ECE-318P,Artificial Intelligence Lab,1
-ECE-320T,Electronic Measurements,3
-ECE-320P,Electronic Measurements Lab,1
-ECE-322T,Fabrication Technology,3
-ECE-322P,Fabrication Technology Lab,1
-ECE-324,Multimedia Communication,4
-ECE-326T,Optical Communication Systems and Networks,3
-ECE-326P,Optical Communication Systems and Networks Lab,1
-ECE-328,Advanced Computer Architecture,4
-ECE-330T,Antenna Design and Radiating Systems,3
-ECE-330P,Antenna Design and Radiating Systems Lab,1
-ECE-332,Introduction to Information and Coding Theory,4
-ECE-334T,Random Processes and Stochastic Systems,3
-ECE-334P,Random Processes and Stochastic Systems Lab,1
-ECE-336T,Radio and Television Engineering,3
-ECE-336P,Radio and Television Engineering Lab,1
-ECE-338T,CMOS Analog Integrated Circuit Design,3
-ECE-338P,CMOS Analog Integrated Circuit Design Lab,1
-ECE-340T,Wavelets,3
-ECE-340P,Wavelets Lab,1
-ECE-342T,Wireless Sensor Networks,3
-ECE-342P,Wireless Sensor Networks Lab,1
-ECE-344T,Embedded System Architecture and Design,3
-ECE-344P,Embedded System Architecture and Design Lab,1
-ECE-346,Solid State Microwave Device and their Application,4
-ECE-348,Radar and Satellite Communications,4
-ECE-350T,Machine Learning,3
-ECE-350P,Machine Learning Lab,1
-ECE-354T,Introduction to Power Electronics,3
-ECE-354P,Introduction to Power Electronics Lab,1
-ECE-403T,RF Components and Circuit Design,3
-ECE-403P,RF Components and Circuit Design Lab,1
-ECE-405T,Pattern Recognition,3
-ECE-405P,Pattern Recognition Lab,1
-ECE-407,Next Generation Networks,4
-ECE-409T,Micro Electromechanical Systems (MEMS) and Sensors,3
-ECE-409P,Micro Electromechanical Systems (MEMS) and Sensors Lab,1
-ECE-411T,Fuzzy Logic and Neural Networks,3
-ECE-411P,Fuzzy Logic and Neural Networks Lab,1
-ECE-413T,Ad hoc and Sensor Networks,3
-ECE-413P,Ad hoc and Sensor Networks Lab,1
-ECE-415,Engineering Optimization,4
-ECE-417T,Optoelectronics Devices,3
-ECE-417P,Optoelectronics Devices Lab,1
-ECE-435T,Logic Design and Analysis using Verilog,3
-ECE-435P,Logic Design and Analysis using Verilog Lab,1
-ECE-419T,Low Power VLSI Design,3
-ECE-419P,Low Power VLSI Design Lab,1
-ECE-421T,"Medical Image Processing, Analysis and Reconstruction",3
-ECE-421P,"Medical Image Processing, Analysis and Reconstruction Lab",1
-ECE-423T,Network Security and Cryptography,3
-ECE-423P,Network Security and Cryptography Lab,1
-ECE-425,Real Time Operating Systems,4
-ECE-427T,Smart Antennas,3
-ECE-427P,Smart Antennas Lab,1
-ECE-429T,Introduction to Internet of Things,3
-ECE-429P,Introduction to Internet of Things Lab,1
-ECE-431T,Nature Inspired Biological Optimization Techniques,3
-ECE-431P,Nature Inspired Biological Optimization Techniques Lab,1
-ECE-433,Introduction to Robotics Engineering,4
-ECC-209,Electrical Materials,3
-ECC-211,Electrical Machines I,4
-ECC-213,Electromagnetic Field Theory,3
-ECC-215,Electronics I,3
-ECC-257,Electrical Machines I Lab,1
-ECC-259,Electrical Engineering Workshop,1
-ECC-261,Electronics I Lab,1
-EEC-210,Electrical Machines II,4
-EEC-212,Power Systems I,4
-EEC-218,Electronics II,4
-EEC-256,Electrical Machines II Lab,1
-EEC-260,Power Systems I Lab,1
-EEC-264,Electronics II Lab,1
-ECC-303,Power Systems II,4
-EEC-305,Electrical and Electronics Measuring Instruments,4
-EEC-309,Power Electronics,4
-ECC-313,Microprocessors and Microcontrollers,3
-ECC-351,Power Systems II Lab,1
-ECC-353,Electrical and Electronics Measuring Instruments Lab,1
-ECC-357,Power Electronics Lab,1
-ECC-363,Microprocessors and Microcontrollers Lab,1
-EEE-308,Artificial Intelligence and Machine Learning for Electrical Systems,4
-EEE-310T,Bio Medical Instrumentation,3
-EEE-310P,Bio Medical Instrumentation Lab,1
-EEE-312T,Introduction to Digital Signal Processing,3
-EEE-312P,Introduction to Digital Signal Processing Lab,1
-EEE-318,Stochastic Processes and Systems,4
-EEE-320T,Utilization of Electrical Energy,3
-EEE-320P,Utilization of Electrical Energy Lab,1
-EEE-358,Electrical Power Generation Systems,4
-EEE-322T,Computer Aided Electrical Machine Design,3
-EEE-322P,Computer Aided Electrical Machine Design Lab,1
-EEE-324T,Introduction to Data Communication and Networking,3
-EEE-324P,Introduction to Data Communication and Networking Lab,1
-EEE-326T,Discrete Control Systems,3
-EEE-326P,Discrete Control Systems Lab,1
-EEE-334T,Research Methodology for Electrical and Electronics Engineering,3
-EEE-334P,Research Methodology for Electrical and Electronics Engineering Lab,1
-EEE-336T,"Introduction to Transmission Lines, Waveguides and Antenna Design",3
-EEE-336P,"Introduction to Transmission Lines, Waveguides and Antenna Design Lab",1
-EEE-340T,Electric Drives,3
-EEE-340P,Electric Drives Lab,1
-EEE-356T,Optimization using Controllers,3
-EEE-356P,Optimization using Controllers Lab,1
-EEE-360,Process Control,4
-EEE-362T,VLSI,3
-EEE-362P,VLSI Lab,1
-EEE-364T,Systems Design and Simulation,3
-EEE-364P,Systems Design and Simulation Lab,1
-EEE-366,Introduction to Information and Coding Theory,4
-EEE-403,Electricity Distribution Schemes and Policies,4
-EEE-405T,Mathematical Analysis of Complex Systems,3
-EEE-405P,Mathematical Analysis of Complex Systems Lab,1
-EEE-407,Renewable Energy and Policies,4
-EEE-409T,Solid State Drives,3
-EEE-409P,Solid State Drives Lab,1
-EEE-411T,Switchgear and Protection,3
-EEE-411P,Switchgear and Protection Lab,1
-EEE-413T,Digital Image Processing,3
-EEE-413P,Digital Image Processing Lab,1
-EEE-421T,e Mobility,3
-EEE-421P,e Mobility Lab,1
-EEE-423,Energy Conservation Schemes,4
-EEE-425,Energy Economics and Policies,4
-EEE-427,High Voltage Engineering,4
-EEE-429T,Mathematical Model for Reliability of Transmission and Distribution,3
-EEE-429P,Mathematical Model for Reliability of Transmission and Distribution Lab,1
-EEE-431,Smart Grid and Distributed Generation,4
-EEE-433T,Systems Restructuring for Optimization,3
-EEE-433P,Systems Restructuring for Optimization Lab,1
-EEC-209,Electrical Materials,3
-EEC-211,Electrical Machines I,4
-EEC-257,Electrical Machines I Lab,1
-EEC-259,Electrical Engineering Workshop,1
-ECC-218,Electronics II,4
-ECC-264,Electronics II Lab,1
-EEC-303,Power Systems II,4
-EEC-351,Power Systems II Lab,1
-EEC-353,Electrical and Electronics Measuring Instruments Lab,1
-EEC-355,Introduction to Control Systems Lab,1
-EEC-357,Power Electronics Lab,1
-EEE-306T,Analog and Digital Communications,3
-EEE-306P,Analog and Digital Communications Lab,1
-EEE-314,Powerline Carrier Communication,4
-EEE-330,Nano Electronics,4
-EEE-332,Opto Electronics,4
-EEE-338T,Digital Systems Design,3
-EEE-338P,Digital Systems Design Lab,1
-EEE-354,Electrical Power Generation Systems,4
-EEE-415T,Wireless Sensor Networks,3
-EEE-415P,Wireless Sensor Networks Lab,1
-EEE-417T,Advanced Semiconductor Devices,3
-EEE-417P,Advanced Semiconductor Devices Lab,1
-EEE-419T,Communication Systems Analysis,3
-EEE-419P,Communication Systems Analysis Lab,1
-MEC-205,Theory of Machines,4
-MEC-207,Strength of Materials,4
-MEC-209,Manufacturing Science and Technology I,4
-MEC-211,Thermal Engineering I,4
-MEC-253,Theory of Machines Lab,1
-MEC-255,Strength of Materials Lab,1
-MEC-257,Thermal Engineering I Lab,1
-MEC-259,Manufacturing Science and Technology I Lab,1
-MEC-206,Manufacturing Science and Technology II,4
-MEC-208,Material Science and Metallurgy,4
-MEC-210,Thermal Engineering II,4
-MEC-212,Machine Design I,4
-MEC-254,Manufacturing Science and Technology II Lab,1
-MEC-256,Thermal Engineering II Lab,1
-MEC-258,Machine Design I Lab,1
-MEC-303,Machine Design II,3
-MEC-305,Fluid Mechanics and Hydraulic Machines,4
-MEC-307,Metrology and Instrumentation,3
-MEC-309,Industrial Engineering,4
-MEC-311,Heat and Mass Transfer,4
-MEC-351,Machine Design II Lab,1
-MEC-353,Fluid Mechanics and Hydraulic Machines Lab,1
-MEC-355,Metrology and Instrumentation Lab,1
-MEC-357,Heat and Mass Transfer Lab,1
-MEE-306T,Automobile Engineering and Electric Vehicles,3
-MEE-306P,Automobile Engineering and Electric Vehicles Lab,1
-MEE-308T,Turbomachines,3
-MEE-308P,Turbomachines Lab,1
-MEE-310T,Finite Element Methods,3
-MEE-310P,Finite Element Methods Lab,1
-MEE-312T,IC Engines and Gas Turbines,3
-MEE-312P,IC Engines and Gas Turbines Lab,1
-MEE-314T,Gas Dynamics and Jet Propulsion,3
-MEE-314P,Gas Dynamics and Jet Propulsion Lab,1
-MEE-316T,Refrigeration and Air Conditioning,3
-MEE-316P,Refrigeration and Air Conditioning Lab,1
-MEE-318T,Power Plant Engineering,3
-MEE-318P,Power Plant Engineering Lab,1
-MEE-320T,Mechanical Vibrations,3
-MEE-320P,Mechanical Vibrations Lab,1
-MEE-322T,Reliability and Maintenance Engineering,3
-MEE-322P,Reliability and Maintenance Engineering Lab,1
-MEE-324T,Advanced Machine Design,3
-MEE-324P,Advanced Machine Design Lab,1
-MEE-326T,Introduction to CAD CAM,3
-MEE-326P,Introduction to CAD CAM Lab,1
-MEE-328T,Robotics Engineering,3
-MEE-328P,Robotics Engineering Lab,1
-MEE-330T,Advanced Material Science and Metallurgy,3
-MEE-330P,Advanced Material Science and Metallurgy Lab,1
-MEE-332T,Metal Forming and Press Working,3
-MEE-332P,Metal Forming and Press Working Lab,1
-MEE-334T,Advances in Welding and Casting,3
-MEE-334P,Advances in Welding and Casting Lab,1
-MEE-336T,System Modeling Simulation and Analysis,3
-MEE-336P,System Modeling Simulation and Analysis Lab,1
-MEE-338T,Elastic and Plastic Behaviour of Materials,3
-MEE-338P,Elastic and Plastic Behaviour of Materials Lab,1
-MEE-403T,Geometric Modelling and Analysis,3
-MEE-403P,Geometric Modelling and Analysis Lab,1
-MEE-405T,Computer Integrated Manufacturing,3
-MEE-405P,Computer Integrated Manufacturing Lab,1
-MEE-407T,Control Systems and Applications,3
-MEE-407P,Control Systems and Applications Lab,1
-MEE-409T,Rapid Prototyping Tooling and Manufacturing,3
-MEE-409P,Rapid Prototyping Tooling and Manufacturing Lab,1
-MEE-411T,Automation in Manufacturing,3
-MEE-411P,Automation in Manufacturing Lab,1
-MEE-413T,Strength of Materials II,3
-MEE-413P,Strength of Materials II Lab,1
-MEE-415T,Design of Mechanical Drives,3
-MEE-415P,Design of Mechanical Drives Lab,1
-MEE-417T,Design of Experiments,3
-MEE-417P,Design of Experiments Lab,1
-MEE-419T,Advance Metal Cutting and Tool Design,3
-MEE-419P,Advance Metal Cutting and Tool Design Lab,1
-MEE-421T,Design of Mechanical Assemblies,3
-MEE-421P,Design of Mechanical Assemblies Lab,1
-MEE-423T,Non Traditional Manufacturing,3
-MEE-423P,Non Traditional Manufacturing Lab,1
-CEC-205,Structural Analysis I,4
-CEC-207,Structural Design I,4
-CEC-209,Fluid Mechanics,4
-CEC-211,Geomatics Engineering,4
-CEC-253,Civil Engineering Drawing Lab,1
-CEC-255,Fluid Mechanics Lab,1
-CEC-257,Geomatics Engineering Lab,1
-CEC-206,Soil Mechanics,4
-CEC-208,Hydraulics and Hydrology,4
-CEC-210,Environmental Engineering I,4
-CEC-212,Transportation Engineering,4
-CEC-254,Soil Mechanics Lab,1
-CEC-256,Hydraulics Lab,1
-CEC-258,Transportation Engineering Lab,1
-CEC-303,Structural Analysis II,4
-CEC-305,Structural Design II,3
-CEC-307,Geotechnical Engineering,4
-CEC-309,Environmental Engineering II,4
-CEC-311,Traffic Engineering and Pavement Design,4
-CEC-351,Structural Design Lab,1
-CEC-353,Building Material and Concrete Testing Lab,1
-CEC-355,Geotechnical Engineering Lab,1
-CEC-357,Environmental Engineering Lab,1
-CEE-306,Advanced Structural Analysis,4
-CEE-308,Irrigation Engineering and Design of Hydraulic Structures,4
-CEE-310,Environmental Impact Assessment,4
-CEE-312T,Advanced Structural Design,3
-CEE-312P,Advanced Structural Design Lab,1
-CEE-314,Water Resource Planning,4
-CEE-316,Pollution Control and Monitoring,4
-CEE-318T,Non Destructive Evaluation of Structures,3
-CEE-318P,Non Destructive Evaluation of Structures Lab,1
-CEE-320,Open Channel Flow and Sediment Transportation,4
-CEE-322,Disaster Management,4
-CEE-403,Recent Construction Technologies,4
-CEE-405T,Arc GIS and Remote Sensing,3
-CEE-405P,Arc GIS and Remote Sensing Lab,1
-CEE-407T,Transport Planning and Intelligent Transportation System,3
-CEE-407P,Transport Planning and Intelligent Transportation System Lab,1
-CEE-409,Structural Dynamics,4
-CEE-411,Lean Construction Technology and Management,4
-CEE-413T,Advanced Surveying,3
-CEE-413P,Advanced Surveying Lab,1
-AI-302T,Artificial Intelligence,3
-AI-302P,Artificial Intelligence Lab,1
-DA-304T,"Statistics, Statistical Modelling & Data Analytics",3
-DA-304P,"Statistics, Statistical Modelling & Data Analytics Lab",1
-SC-401T,Soft Computing,3
-SC-401P,Soft Computing Lab,1
-AI-403T,Artificial Intelligence Applications,3
-AI-403P,Artificial Intelligence Applications Lab,1
-AI-405T,Intelligent and Expert Systems,3
-AI-405P,Intelligent and Expert Systems Lab,1
-ML-407T,Machine Learning,3
-ML-407P,Machine Learning Lab,1
-ML-409T,Reinforcement Learning and Deep Learning,3
-ML-409P,Reinforcement Learning and Deep Learning Lab,1
-ML-411T,Pattern Recognition and Computer Vision,3
-ML-411P,Pattern Recognition and Computer Vision Lab,1
-AI-316T,Artificial Intelligence and Machine Learning,3
-AI-316P,Artificial Intelligence and Machine Learning Lab,1
-DS-427T,Data Science using R,3
-DS-427P,Data Science using R Lab,1
-DS-429T,Big Data Analytics,3
-DS-429P,Big Data Analytics Lab,1
-DS-431T,Business Intelligence,3
-DS-431P,Business Intelligence Lab,1
-DS-433T,Exploratory Data Analytics and Data Visualization,3
-DS-433P,Exploratory Data Analytics and Data Visualization Lab,1
-CS-306T,Mathematics of Modern Cryptography,3
-CS-306P,Mathematics of Modern Cryptography Lab,1
-BT-308T,Blockchain Technology,3
-BT-308P,Blockchain Technology Lab,1
-BT-413T,Bitcoin and Cryptocurrency Technologies,3
-BT-413P,Bitcoin and Cryptocurrency Technologies Lab,1
-BT-415T,Smart Contracts,3
-BT-415P,Smart Contracts Lab,1
-BT-417T,Blockchain for Cyber Security,3
-BT-417P,Blockchain for Cyber Security Lab,1
-BT-419T,Blockchain Technology in Web Development,3
-BT-419P,Blockchain Technology in Web Development Lab,1
-IOT-324T,Introduction to Internet of Things,3
-IOT-324P,Introduction to Internet of Things Lab,1
-IOT-326T,Introduction to Sensors and Transducers,3
-IOT-326P,Introduction to Sensors and Transducers Lab,1
-ES-328T,Embedded Linux,3
-ES-328P,Embedded Linux Lab,1
-IOT-330T,Programming in Python,3
-IOT-330P,Programming in Python Lab,1
-IOT-332T,Wireless Sensor Networks,3
-IOT-332P,Wireless Sensor Networks Lab,1
-CS-423T,Cyber Security and Forensics,3
-CS-423P,Cyber Security and Forensics Lab,1
-IOT-441T,"IoT with Arduino, ESP and Raspberry Pi",3
-IOT-441P,"IoT with Arduino, ESP and Raspberry Pi Lab",1
-IOT-443T,Design of Smart Systems,3
-IOT-443P,Design of Smart Systems Lab,1
-IOT-445T,Internet of Things Industrial and Medical Case Studies,3
-IOT-445P,Internet of Things Industrial and Medical Case Studies Lab,1
-IOT-447T,Internet of Things Frameworks,3
-IOT-447P,Internet of Things Frameworks Lab,1
-IOT-449,Privacy and Security issues in IoT,4
-NET-344T,Advanced Computer Networks and Administration,3
-NET-344P,Advanced Computer Networks and Administration Lab,1
-NET-346T,Linux System Administration,3
-NET-346P,Linux System Administration Lab,1
-NET-471T,Network Programming,3
-NET-471P,Network Programming Lab,1
-NET-473T,Cloud Computing and Security,3
-NET-473P,Cloud Computing and Security Lab,1
-NET-475T,Wireless Sensor Networks,3
-NET-475P,Wireless Sensor Networks Lab,1
-CS-310T,Information Theory and Coding,3
-CS-310P,Information Theory and Coding Lab,1
-CS-312T,Network Security and Cryptography,3
-CS-312P,Network Security and Cryptography Lab,1
-CS-314T,Network Security Issues and Challenges,3
-CS-314P,Network Security Issues and Challenges Lab,1
-CS-421T,Cyber Crime and Cyber Laws,3
-CS-421P,Cyber Crime and Cyber Laws Lab,1
-CS-425T,Ethical Hacking,3
-CS-425P,Ethical Hacking Lab,1
-ML-348T,Artificial Neural Networks and Deep Learning,3
-ML-348P,Artificial Neural Networks and Deep Learning Lab,1
-SC-477T,Fuzzy Systems and Applications,3
-SC-477P,Fuzzy Systems and Applications Lab,1
-SC-479T,Global Optimization Methods,3
-SC-479P,Global Optimization Methods Lab,1
-SC-481T,Soft Computing and Expert Systems,3
-SC-481P,Soft Computing and Expert Systems Lab,1
-DA-338T,Data Analytics,3
-DA-338P,Data Analytics Lab,1
-DS-340T,Data Visualization,3
-DS-340P,Data Visualization Lab,1
-ML-342T,Machine Learning,3
-ML-342P,Machine Learning Lab,1
-ML-463T,Supervised and Deep Learning,3
-ML-463P,Supervised and Deep Learning Lab,1
-ML-465T,Unsupervised Learning,3
-ML-465P,Unsupervised Learning Lab,1
-ML-467T,Machine Learning and Data Analytics Case Studies,3
-ML-467P,Machine Learning and Data Analytics Case Studies Lab,1
-ML-469T,Machine Learning and Data Analytics Frameworks,3
-ML-469P,Machine Learning and Data Analytics Frameworks Lab,1
-SE-350T,"Software Measurements, Metrics and Modelling",3
-SE-350P,"Software Measurements, Metrics and Modelling Lab",1
-SE-352T,Service Oriented Architecture,3
-SE-352P,Service Oriented Architecture Lab,1
-SE-354T,Software Project Management,3
-SE-354P,Software Project Management Lab,1
-SE-483T,Mining Software Repositories and Predictive Modelling,3
-SE-483P,Mining Software Repositories and Predictive Modelling Lab,1
-SE-485,Software Security,4
-SE-487T,"Software Verification, Validation and Testing",3
-SE-487P,"Software Verification, Validation and Testing Lab",1
-SE-489,Software Engineering Standards,4
-FSD-318T,Advanced Java Programming,3
-FSD-318P,Advanced Java Programming Lab,1
-FSD-320T,Web Development using MEAN Stack,3
-FSD-320P,Web Development using MEAN Stack Lab,1
-FSD-322T,Web Development using MERN Stack,3
-FSD-322P,Web Development using MERN Stack Lab,1
-FSD-435T,PHP Programming and MySQL,3
-FSD-435P,PHP Programming and MySQL Lab,1
-FSD-437T,Mobile App Development,3
-FSD-437P,Mobile App Development Lab,1
-FSD-439T,Web and Mobile Application Testing and Deployment,3
-FSD-439P,Web and Mobile Application Testing and Deployment Lab,1
-IPCV-334T,Digital Image Processing,3
-IPCV-334P,Digital Image Processing Lab,1
-IPCV-356T,Digital Signal and Image Processing,3
-IPCV-356P,Digital Signal and Image Processing Lab,1
-IPCV-336T,Pattern Recognition,3
-IPCV-336P,Pattern Recognition Lab,1
-IPCV-451T,Computer Vision,3
-IPCV-451P,Computer Vision Lab,1
-IPCV-453T,Biometrics,3
-IPCV-453P,Biometrics Lab,1
-IPCV-455T,"Medical Image Processing, Analysis and Reconstruction",3
-IPCV-455P,"Medical Image Processing, Analysis and Reconstruction Lab",1
-IPCV-457T,Remote Sensing Image Analysis and Classification,3
-IPCV-457P,Remote Sensing Image Analysis and Classification Lab,1
-IPCV-459T,Deep Learning for Image Processing and Computer Vision,3
-IPCV-459P,Deep Learning for Image Processing and Computer Vision Lab,1
-IPCV-461T,Machine Learning for Image and Vision Analysis,3
-IPCV-461P,Machine Learning for Image and Vision Analysis Lab,1
-RA-324T,Robot Kinematics and Dynamics,3
-RA-324P,Robot Kinematics and Dynamics Lab,1
-RA-437T,Robot Actuation Systems,3
-RA-437P,Robot Actuation Systems Lab,1
-RA-439T,Control Hardware and Interfacing,3
-RA-439P,Control Hardware and Interfacing Lab,1
-RA-441T,AI in Robotics,3
-RA-441P,AI in Robotics Lab,1
-ES-302T,Microprocessors and Interfacing,3
-ES-302P,Microprocessors and Interfacing Lab,1
-ES-308T,Introduction to Data Communication and Networking,3
-ES-308P,Introduction to Data Communication and Networking Lab,1
-ES-310T,Advanced Microprocessors (ARM) & Interfacing,3
-ES-310P,Advanced Microprocessors (ARM) & Interfacing Lab,1
-ES-304,Real Time Operating Systems,4
-ES-306T,Embedded System Architecture and Design,3
-ES-306P,Embedded System Architecture and Design Lab,1
-ES-401T,Programming in C for Embedded Systems,3
-ES-401P,Programming in C for Embedded Systems Lab,1
-ES-403T,VHDL Programming,3
-ES-403P,VHDL Programming Lab,1
-ES-405T,Real Time Embedded System Programming,3
-ES-405P,Real Time Embedded System Programming Lab,1
-ES-407T,Embedded Linux,3
-ES-407P,Embedded Linux Lab,1
-IOT-409T,Introduction to Sensors and Transducers,3
-IOT-409P,Introduction to Sensors and Transducers Lab,1
-ES-411T,Logic Design and Analysis using Verilog,3
-ES-411P,Logic Design and Analysis using Verilog Lab,1
-VLSI-328T,Semiconductor Devices and Modelling,3
-VLSI-328P,Semiconductor Devices and Modelling Lab,1
-VLSI-330T,VLSI,3
-VLSI-330P,VLSI Lab,1
-VLSI-443T,CMOS Analog Integrated Circuit Design,3
-VLSI-443P,CMOS Analog Integrated Circuit Design Lab,1
-VLSI-445T,CMOS Digital Circuits Design,3
-VLSI-445P,CMOS Digital Circuits Design Lab,1
-VLSI-447,CMOS Mixed Signal Circuit Design,4
-VLSI-449T,Low Power VLSI Design,3
-VLSI-449P,Low Power VLSI Design Lab,1
-VLSI-451,VLSI Testing,4
-MT-312T,Energy Storage Systems in Microgrids,3
-MT-312P,Energy Storage Systems in Microgrids Lab,1
-MT-314T,Modeling and Analysis of Microgrids,3
-MT-314P,Modeling and Analysis of Microgrids Lab,1
-MT-419T,Microgrid Stability Assessment and Protection,3
-MT-419P,Microgrid Stability Assessment and Protection Lab,1
-MT-421T,Human Machine Interface for Microgrids,3
-MT-421P,Human Machine Interface for Microgrids Lab,1
-MT-423T,Power Quality for Microgrids,3
-MT-423P,Power Quality for Microgrids Lab,1
-CI-306T,PLC and SCADA Systems,3
-CI-306P,PLC and SCADA Systems Lab,1
-CI-407T,Advanced Control Systems for Instrumentation,3
-CI-407P,Advanced Control Systems for Instrumentation Lab,1
-CI-409T,Neuro Fuzzy Systems,3
-CI-409P,Neuro Fuzzy Systems Lab,1
-CI-411T,Non-linear System Design,3
-CI-411P,Non-linear System Design Lab,1
-WMC-332T,Optical Networks,3
-WMC-332P,Optical Networks Lab,1
-WMC-334T,Random Processes and Stochastic Systems,3
-WMC-334P,Random Processes and Stochastic Systems Lab,1
-WMC-336T,Wireless Communication and Networks,3
-WMC-336P,Wireless Communication and Networks Lab,1
-WMC-338T,Cellular and Mobile Communication,3
-WMC-338P,Cellular and Mobile Communication Lab,1
-WMC-453T,Ad hoc and Sensor Networks,3
-WMC-453P,Ad hoc and Sensor Networks Lab,1
-WMC-455T,Mobile Computing,3
-WMC-455P,Mobile Computing Lab,1
-WMC-457,Cognitive Radio & Networks,4
-WMC-459,Privacy and Security in Wireless Networks,4
-PS-320T,"Electricity Generation, Transmission and Utilization",3
-PS-320P,"Electricity Generation, Transmission and Utilization Lab",1
-PS-322T,EHVAC and HVDC Transmission,3
-PS-322P,EHVAC and HVDC Transmission Lab,1
-PS-431T,Power System Operation and Control,3
-PS-431P,Power System Operation and Control Lab,1
-PS-433T,Flexible AC Transmission System,3
-PS-433P,Flexible AC Transmission System Lab,1
-PS-435T,Power System Analysis and Stability,3
-PS-435P,Power System Analysis and Stability Lab,1
-CADM-302T,Introduction to CAD/CAM,3
-CADM-302P,Introduction to CAD/CAM Lab,1
-CADM-304T,Injection Moulding and Mould Design,3
-CADM-304P,Injection Moulding and Mould Design Lab,1
-CADM-401T,Computational Fluid Dynamics,3
-CADM-401P,Computational Fluid Dynamics Lab,1
-CADM-403T,Computer Aided Design and Drafting,3
-CADM-403P,Computer Aided Design and Drafting Lab,1
-CADM-405T,Industrial Robotics,3
-CADM-405P,Industrial Robotics Lab,1
-PED-316T,Advanced Power Electronic Converters,3
-PED-316P,Advanced Power Electronic Converters Lab,1
-PED-318T,Industrial Control Electronics,3
-PED-318P,Industrial Control Electronics Lab,1
-PED-425T,Switch Mode Power Conversion,3
-PED-425P,Switch Mode Power Conversion Lab,1
-PED-427T,Solid State Drives,3
-PED-427P,Solid State Drives Lab,1
-PED-429T,Solar Photovoltaic Systems,3
-PED-429P,Solar Photovoltaic Systems Lab,1
-DMS-312T,Industrial Tribology,3
-DMS-312P,Industrial Tribology Lab,1
-DMS-314T,Quality Management & Quality Control,3
-DMS-314P,Quality Management & Quality Control Lab,1
-DMS-419T,Fracture Mechanics,3
-DMS-419P,Fracture Mechanics Lab,1
-DMS-421T,Advance Manufacturing Process,3
-DMS-421P,Advance Manufacturing Process Lab,1
-DMS-423T,Pressure Vessels and Piping Technology,3
-DMS-423P,Pressure Vessels and Piping Technology Lab,1
-EV-308T,Electric Vehicle Powertrain and Motor Design,3
-EV-308P,Electric Vehicle Powertrain and Motor Design Lab,1
-EV-310T,Battery Management Systems,3
-EV-310P,Battery Management Systems Lab,1
-EV-413T,EV Charging Infrastructure Technology,3
-EV-413P,EV Charging Infrastructure Technology Lab,1
-EV-415,Economics and Policies of e-Mobility,4
-EV-417T,Embedded Systems for Electric Vehicles,3
-EV-417P,Embedded Systems for Electric Vehicles Lab,1
-DT-316T,Automobile Engineering,3
-DT-316P,Automobile Engineering Lab,1
-DT-425T,Mechanical Vibrations,3
-DT-425P,Mechanical Vibrations Lab,1
-DT-427T,Industrial Tribology,3
-DT-427P,Industrial Tribology Lab,1
-CEC-308,Contract Management,4
-CEC-310,Advanced Construction Materials and Practices,4
-CEC-413,Quality and Safety Management,4
-CEC-415,Lean Construction Technology and Management,4
-CEC-417,Recent Construction Technologies,4
-TES-330T,Cryogenic Engineering,3
-TES-330P,Cryogenic Engineering Lab,1
-TES-332T,Energy Systems and Technologies,3
-TES-332P,Energy Systems and Technologies Lab,1
-TES-447T,Compressible Flow and Jet Propulsion,3
-TES-447P,Compressible Flow and Jet Propulsion Lab,1
-TES-449T,Green Energy Technology,3
-TES-449P,Green Energy Technology Lab,1
-TES-451T,Advanced IC Engines,3
-TES-451P,Advanced IC Engines Lab,1
-IE-322,Water Resource Planning,4
-IE-324,Advanced Environmental Engineering and Design,4
-IE-435,Metro Systems Engineering,4
-IE-437T,Transport Planning and Intelligent Transportation System,3
-IE-437P,Transport Planning and Intelligent Transportation System Lab,1
-IE-439,Analysis and Design of High-rise Buildings and Bridges,4
-QM-326T,Supply Chain Management,3
-QM-326P,Supply Chain Management Lab,1
-QM-328T,Flexible Manufacturing Systems,3
-QM-328P,Flexible Manufacturing Systems Lab,1
-QM-441T,Total Quality Management,3
-QM-441P,Total Quality Management Lab,1
-QM-443T,Statistical Quality Control,3
-QM-443P,Statistical Quality Control Lab,1
-QM-445,Organizational Behaviour,4
-GTSE-318,Planning and Design of Green Buildings,4
-GTSE-320,Sustainable Materials and Practices,4
-GTSE-429,Green Energy Concepts in Smart Cities,4
-GTSE-431,Intelligent Transportation System,4
-GTSE-433,Sustainable Engineering Technologies,4
-OCSE-306T,C++ Programming,3
-OCSE-306P,C++ Programming Lab,1
-OCSE-308,Digital Logic and Computer Design,4
-OCSE-310T,Data Structures and Algorithms,3
-OCSE-310P,Data Structures and Algorithms Lab,1
-OCSE-342T,Programming in Java,3
-OCSE-342P,Programming in Java Lab,1
-OCSE-407T,Introduction to Database Management Systems,3
-OCSE-407P,Introduction to Database Management Systems Lab,1
-OCSE-409,Operating Systems,4
-OCSE-411T,Introduction to Computer Networks,3
-OCSE-411P,Introduction to Computer Networks Lab,1
-OCSE-413T,Introduction to Software Engineering,3
-OCSE-413P,Introduction to Software Engineering Lab,1
-OECE-312T,Introduction to Circuits and Systems,3
-OECE-312P,Introduction to Circuits and Systems Lab,1
-OECE-344T,Introduction to Analog Electronics,3
-OECE-344P,Introduction to Analog Electronics Lab,1
-OECE-314T,Electronic Devices and Circuits,3
-OECE-314P,Electronic Devices and Circuits Lab,1
-OECE-415,Digital Logic and Computer Design,4
-OECE-417T,Microprocessors and Interfacing,3
-OECE-417P,Microprocessors and Interfacing Lab,1
-OECE-419T,Analog and Digital Communications,3
-OECE-419P,Analog and Digital Communications Lab,1
-OECE-421T,Wireless Sensor Networks,3
-OECE-421P,Wireless Sensor Networks Lab,1
-OECE-423,Control Systems,4
-OECE-425T,Introduction to Computer Networks,3
-OECE-425P,Introduction to Computer Networks Lab,1
-OEE-316T,Introduction to Circuits and Systems,3
-OEE-316P,Introduction to Circuits and Systems Lab,1
-OEE-346T,Introduction to Analog Electronics,3
-OEE-346P,Introduction to Analog Electronics Lab,1
-OEE-318T,Introduction to Electrical Machines,3
-OEE-318P,Introduction to Electrical Machines Lab,1
-OEE-427T,Control Systems for Electrical Engineering,3
-OEE-427P,Control Systems for Electrical Engineering Lab,1
-OEE-429T,"Generation, Transmission and Distribution",3
-OEE-429P,"Generation, Transmission and Distribution Lab",1
-OEE-431T,Introduction to Power Electronics,3
-OEE-431P,Introduction to Power Electronics Lab,1
-OSD-328T,C++ Programming,3
-OSD-328P,C++ Programming Lab,1
-OSD-330T,Programming in Windows Environment,3
-OSD-330P,Programming in Windows Environment Lab,1
-OSD-332T,Programming in Java,3
-OSD-332P,Programming in Java Lab,1
-OSD-334T,Android App Development,3
-OSD-334P,Android App Development Lab,1
-OSD-336T,Introduction to Database Management Systems,3
-OSD-336P,Introduction to Database Management Systems Lab,1
-OSD-445T,Data Structures and Algorithms,3
-OSD-445P,Data Structures and Algorithms Lab,1
-OSD-447T,Project Management,3
-OSD-447P,Project Management Lab,1
-OSD-449T,Design Patterns,3
-OSD-449P,Design Patterns Lab,1
-OSD-451T,Introduction to Software Engineering,3
-OSD-451P,Introduction to Software Engineering Lab,1
-OSD-453T,Advanced Java Programming,3
-OSD-453P,Advanced Java Programming Lab,1
-OSD-455T,Programming in Linux Environment,3
-OSD-455P,Programming in Linux Environment Lab,1
-OME-324T,Theory of Machines,3
-OME-324P,Theory of Machines Lab,1
-OME-326T,Materials and Machine Technology,3
-OME-326P,Materials and Machine Technology Lab,1
-OME-439T,Fluids and Thermal Engineering,3
-OME-439P,Fluids and Thermal Engineering Lab,1
-OME-441T,Mechanics and Design of Solids,3
-OME-441P,Mechanics and Design of Solids Lab,1
-OME-443T,Automation in Manufacturing,3
-OME-443P,Automation in Manufacturing Lab,1
-OICE-320T,Introduction to Sensors and Transducers,3
-OICE-320P,Introduction to Sensors and Transducers Lab,1
-OICE-322T,Measurement and Control,3
-OICE-322P,Measurement and Control Lab,1
-OICE-433,Process Control,4
-OICE-435T,Introduction to Industrial Instrumentation,3
-OICE-435P,Introduction to Industrial Instrumentation Lab,1
-OICE-437T,Bio Medical Instrumentation,3
-OICE-437P,Bio Medical Instrumentation Lab,1
-OCE-302,Structural Analysis and Design,4
-OCE-304,Pipe and Open Channel Hydraulics,4
-OCE-401,Green Building Construction Materials and Practices,4
-OCE-403,Public Health Engineering,4
-OCE-405,Geotechnical and Transportation Engineering,4
-OUHV-338,"Understanding Human Being, Nature and Existence Comprehensively",4
-OUHV-340,Vision for Humane Society,4
-OUHV-457,Human Values and Madhyasth Darshan,4
-OUHV-459,Human Values in Buddh and Jain Darshan,4
-OUHV-461,"Human Values in Vedic Darshan (Sankhya, Yoga and Vedanta)",4
-OUHV-463,Holistic Human Health,4
-OUHV-465,Human Sociology,4
-OUHV-467,Human Economics,4
+ES101,Programming in ‘C’,3
+BS103,Applied Chemistry,3
+BS105,Applied Physics I,3
+ES107,Electrical Science,3
+BS109,Environmental Studies,3
+BS111,Applied Mathematics I,4
+HS113,Communication Skills,3
+HS115,Indian Constitution,2
+HS117,Human Values and Ethics,1
+ES119,Manufacturing Process,4
+BS151,Physics I Lab,1
+ES153,Programming in ‘C’ Lab,1
+BS155,Applied Chemistry Lab,1
+ES157,Engineering Graphics I,2
+ES159,Electrical Science Lab,1
+BS161,Environmental Studies Lab,1
+ES102,Programming in ‘C’,3
+BS104,Applied Chemistry,3
+BS106,Applied Physics II,3
+ES108,Electrical Science,3
+BS110,Environmental Studies,3
+BS112,Applied Mathematics II,4
+HS114,Communication Skills,3
+HS116,Indian Constitution,2
+HS118,Human Values and Ethics,1
+ES114,Engineering Mechanics,3
+BS152,Physics II Lab,1
+ES154,Programming in ‘C’ Lab,1
+BS156,Applied Chemistry Lab,1
+ES158,Engineering Graphics II,1
+ES160,Electrical Science Lab,1
+BS162,Environmental Studies Lab,1
+ES164,Workshop Practice,2
+ES201,Computational Methods,4
+HS203,Indian Knowledge System,2
+CIC205,Discrete Mathematics,4
+ECC207,Digital Logic and Computer Design,4
+CIC209,Data Structures,4
+CIC211,Object Oriented Programming using C++,4
+ES251,Computational Methods Lab,1
+ECC253,Digital Logic and Computer Design Lab,1
+CIC255,Data Structures Lab,1
+CIC257,Object Oriented Programming using C++ Lab,1
+BS202,"Probability, Statistics and Linear Programming",4
+HS204,Technical Writing,2
+CIC206,Theory of Computation,4
+EEC208,Circuits and Systems,4
+CIC210,Database Management Systems,4
+CIC212,Programming in Java,4
+BS252,"Probability, Statistics and Linear Programming Lab",1
+EEC254,Circuits and Systems Lab,1
+CIC256,Database Management Systems Lab,1
+CIC258,Programming in Java Lab,1
+HS301,Economics for Engineers,2
+CIC303,Compiler Design,3
+CIC305,Operating Systems,4
+CIC307,Computer Networks,4
+CIC309,Software Engineering,3
+CIC311,Design and Analysis of Algorithm,4
+CIC351,Compiler Design Lab,1
+CIC353,Operating Systems Lab,1
+CIC355,Computer Networks Lab,1
+CIC357,Software Engineering Lab,1
+CIC359,Design and Analysis of Algorithm Lab,1
+ES361,Summer Training Report 1,1
+MS302,Principles of Management for Engineers,3
+HS304,Universal Human Values,1
+PCE1,Programme Core Elective Paper 1,4
+PCE2,Programme Core Elective Paper 2,4
+PCE3,Programme Core Elective Paper 3,4
+EAE1,Emerging Area,4
+EAE2,Emerging Area,4
+HS352,NSS / NCC / Cultural Clubs / Technical Society,2
+MS401,Principles of Entrepreneurship Mindset,2
+PCE4,Programme Core Elective Paper 4,4
+PCE5,Programme Core Elective Paper 5,4
+EAE3,Emerging Area,4
+EAE4,Emerging Area,4
+EAE5,Emerging Area,4
+ES451,Minor Project,3
+ES453,Summer Training Report 2,1
+ES452,Major Project Dissertation and Viva Voce,18
+ES454,Project Progress Evaluation,2
+ES456,Internship Report and Viva Voce,18
+ES458,Internship Progress Evaluation,2
+CIE306T,Advanced Java Programming,3
+CIE306P,Advanced Java Programming Lab,1
+CIE308T,Visual Basic .NET Programming,3
+CIE308P,Visual Basic .NET Programming Lab,1
+CIE312,Engineering Optimization,4
+CIE320,Principles of Programming Languages,4
+CIE322T,Simulation and Modelling,3
+CIE322P,Simulation and Modelling Lab,1
+CIE330T,Introduction to Internet of Things,3
+CIE330P,Introduction to Internet of Things Lab,1
+CIE332T,Programming in Python,3
+CIE332P,Programming in Python Lab,1
+CIE334,Quantum Computing,4
+CIE338T,Graph Theory for Computer Science,3
+CIE338P,Graph Theory for Computer Science Lab,1
+CIE348T,Software Project Management,3
+CIE348P,Software Project Management Lab,1
+CIE354T,Introduction to Digital Signal Processing,3
+CIE354P,Introduction to Digital Signal Processing Lab,1
+CIE356T,Web Technologies,3
+CIE356P,Web Technologies Lab,1
+CIE368T,Mobile Computing,3
+CIE368P,Mobile Computing Lab,1
+CIE370T,Parallel Computing,3
+CIE370P,Parallel Computing Lab,1
+CIE374T,Artificial Intelligence,3
+CIE374P,Artificial Intelligence Lab,1
+CIE403T,Blockchain Technology,3
+CIE403P,Blockchain Technology Lab,1
+CIE405T,Data Science,3
+CIE405P,Data Science Lab,1
+CIE407T,Distributed Systems and Cloud Computing,3
+CIE407P,Distributed Systems and Cloud Computing Lab,1
+CIE409T,Social Network Analysis and Sentiment Analysis,3
+CIE409P,Social Network Analysis and Sentiment Analysis Lab,1
+CIE413T,Next Generation Web,3
+CIE413P,Next Generation Web Lab,1
+CIE417T,C#.NET Programming,3
+CIE417P,C#.NET Programming Lab,1
+CIE419,Intellectual Property Rights,4
+CIE421T,Machine Learning,3
+CIE421P,Machine Learning Lab,1
+CIE425T,Data Warehousing and Data Mining,3
+CIE425P,Data Warehousing and Data Mining Lab,1
+CIE431T,Web Mining,3
+CIE431P,Web Mining Lab,1
+CIE314,Advanced Computer Architecture,4
+CIE316,Database Modelling and Design,4
+CIE328T,Analog and Digital Communications,3
+CIE328P,Analog and Digital Communications Lab,1
+CIE336,E Commerce and M Commerce,4
+CIE344T,Object Oriented Analysis and Design using UML,3
+CIE344P,Object Oriented Analysis and Design using UML Lab,1
+CIE360T,Introduction to Information and Communication Theory,3
+CIE360P,Introduction to Information and Communication Theory Lab,1
+CIE366T,Middleware Technologies,3
+CIE366P,Middleware Technologies Lab,1
+CIE415T,Wireless Communication and Networks,3
+CIE415P,Wireless Communication and Networks Lab,1
+CIE427,Introduction to Mobile Ad Hoc Networks,4
+CIE310T,Advanced DBMS,3
+CIE310P,Advanced DBMS Lab,1
+CIE324,Software Testing,4
+CIE340,IT Project Management,4
+CIE346T,Service Oriented Architecture,3
+CIE346P,Service Oriented Architecture Lab,1
+CIE358T,Human Computer Interface,3
+CIE358P,Human Computer Interface Lab,1
+CIE372T,Software Requirements and Estimation,3
+CIE372P,Software Requirements and Estimation Lab,1
+CIE411T,Computer Graphics and Multimedia Technologies,3
+CIE411P,Computer Graphics and Multimedia Technologies Lab,1
+CIE423T,Data Visualization,3
+CIE423P,Data Visualization Lab,1
+CIE318T,Network Security and Cryptography,3
+CIE318P,Network Security and Cryptography Lab,1
+CIE326T,VHDL Programming,3
+CIE326P,VHDL Programming Lab,1
+CIE342T,Multimedia Technologies,3
+CIE342P,Multimedia Technologies Lab,1
+CIE350,Windows System Administration,4
+CIE362T,Linux System Administration,3
+CIE362P,Linux System Administration Lab,1
+CIE364T,Microprocessors and Interfacing,3
+CIE364P,Microprocessors and Interfacing Lab,1
+CIE429T,Web Intelligence and Big Data Analytics,3
+CIE429P,Web Intelligence and Big Data Analytics Lab,1
+ECC205,Signals and Systems,3
+ECC209,Analog Communications,4
+ECC211,Analog Electronics I,4
+ECC255,Analog Communications Lab,1
+ECC257,Analog Electronics I Lab,1
+ECC259,Signals and Systems Lab,1
+EEC206,Network Analysis and Synthesis,3
+EEC210,Microprocessors and Microcontrollers,3
+EEC212,Digital Communications,3
+EEC214,Analog Electronics II,3
+EEC216,Electromagnetic Field Theory,3
+EEC256,Microprocessors and Microcontrollers Lab,1
+EEC258,Digital Communications Lab,1
+EEC260,Analog Electronics II Lab,1
+EEC262,Network Analysis and Synthesis Lab,1
+ECC303,Digital Signal Processing,4
+ECC305,Microelectronics,3
+EEC307,Introduction to Control Systems,3
+ECC309,"Transmission Lines, Waveguides and Antenna Design",4
+ECC311,Data Communication and Networking,4
+ECC351,Digital Signal Processing Lab,1
+ECC353,Microelectronics Lab,1
+ECC355,Introduction to Control Systems Lab,1
+ECC357,"Transmission Lines, Waveguides and Antenna Design Lab",1
+ECC359,Data Communication and Networking Lab,1
+EAE1 / OAE1,Emerging Area or Open Area Elective Paper 1,4
+EAE2 / OAE2,Emerging Area or Open Area Elective Paper 2,4
+EAE3 / OAE3,Emerging Area or Open Area Elective Paper 3,4
+EAE4 / OAE4,Emerging Area or Open Area Elective Paper 4,4
+EAE5 / OAE5,Emerging Area or Open Area Elective Paper 5,4
+ECE306T,VHDL Programming,3
+ECE306P,VHDL Programming Lab,1
+ECE308T,Digital Image Processing,3
+ECE308P,Digital Image Processing Lab,1
+ECE310,Mobile Communication,4
+ECE312T,Advanced Microprocessors and Microcontroller,3
+ECE312P,Advanced Microprocessors and Microcontroller Lab,1
+ECE314T,RF and Microwave Engineering,3
+ECE314P,RF and Microwave Engineering Lab,1
+ECE316T,Mobile Computing,3
+ECE316P,Mobile Computing Lab,1
+ECE318T,Artificial Intelligence,3
+ECE318P,Artificial Intelligence Lab,1
+ECE320T,Electronic Measurements,3
+ECE320P,Electronic Measurements Lab,1
+ECE322T,Fabrication Technology,3
+ECE322P,Fabrication Technology Lab,1
+ECE324,Multimedia Communication,4
+ECE326T,Optical Communication Systems and Networks,3
+ECE326P,Optical Communication Systems and Networks Lab,1
+ECE328,Advanced Computer Architecture,4
+ECE330T,Antenna Design and Radiating Systems,3
+ECE330P,Antenna Design and Radiating Systems Lab,1
+ECE332,Introduction to Information and Coding Theory,4
+ECE334T,Random Processes and Stochastic Systems,3
+ECE334P,Random Processes and Stochastic Systems Lab,1
+ECE336T,Radio and Television Engineering,3
+ECE336P,Radio and Television Engineering Lab,1
+ECE338T,CMOS Analog Integrated Circuit Design,3
+ECE338P,CMOS Analog Integrated Circuit Design Lab,1
+ECE340T,Wavelets,3
+ECE340P,Wavelets Lab,1
+ECE342T,Wireless Sensor Networks,3
+ECE342P,Wireless Sensor Networks Lab,1
+ECE344T,Embedded System Architecture and Design,3
+ECE344P,Embedded System Architecture and Design Lab,1
+ECE346,Solid State Microwave Device and their Application,4
+ECE348,Radar and Satellite Communications,4
+ECE350T,Machine Learning,3
+ECE350P,Machine Learning Lab,1
+ECE354T,Introduction to Power Electronics,3
+ECE354P,Introduction to Power Electronics Lab,1
+ECE403T,RF Components and Circuit Design,3
+ECE403P,RF Components and Circuit Design Lab,1
+ECE405T,Pattern Recognition,3
+ECE405P,Pattern Recognition Lab,1
+ECE407,Next Generation Networks,4
+ECE409T,Micro Electromechanical Systems (MEMS) and Sensors,3
+ECE409P,Micro Electromechanical Systems (MEMS) and Sensors Lab,1
+ECE411T,Fuzzy Logic and Neural Networks,3
+ECE411P,Fuzzy Logic and Neural Networks Lab,1
+ECE413T,Ad hoc and Sensor Networks,3
+ECE413P,Ad hoc and Sensor Networks Lab,1
+ECE415,Engineering Optimization,4
+ECE417T,Optoelectronics Devices,3
+ECE417P,Optoelectronics Devices Lab,1
+ECE435T,Logic Design and Analysis using Verilog,3
+ECE435P,Logic Design and Analysis using Verilog Lab,1
+ECE419T,Low Power VLSI Design,3
+ECE419P,Low Power VLSI Design Lab,1
+ECE421T,"Medical Image Processing, Analysis and Reconstruction",3
+ECE421P,"Medical Image Processing, Analysis and Reconstruction Lab",1
+ECE423T,Network Security and Cryptography,3
+ECE423P,Network Security and Cryptography Lab,1
+ECE425,Real Time Operating Systems,4
+ECE427T,Smart Antennas,3
+ECE427P,Smart Antennas Lab,1
+ECE429T,Introduction to Internet of Things,3
+ECE429P,Introduction to Internet of Things Lab,1
+ECE431T,Nature Inspired Biological Optimization Techniques,3
+ECE431P,Nature Inspired Biological Optimization Techniques Lab,1
+ECE433,Introduction to Robotics Engineering,4
+ECC209,Electrical Materials,3
+ECC211,Electrical Machines I,4
+ECC213,Electromagnetic Field Theory,3
+ECC215,Electronics I,3
+ECC257,Electrical Machines I Lab,1
+ECC259,Electrical Engineering Workshop,1
+ECC261,Electronics I Lab,1
+EEC210,Electrical Machines II,4
+EEC212,Power Systems I,4
+EEC218,Electronics II,4
+EEC256,Electrical Machines II Lab,1
+EEC260,Power Systems I Lab,1
+EEC264,Electronics II Lab,1
+ECC303,Power Systems II,4
+EEC305,Electrical and Electronics Measuring Instruments,4
+EEC309,Power Electronics,4
+ECC313,Microprocessors and Microcontrollers,3
+ECC351,Power Systems II Lab,1
+ECC353,Electrical and Electronics Measuring Instruments Lab,1
+ECC357,Power Electronics Lab,1
+ECC363,Microprocessors and Microcontrollers Lab,1
+EEE308,Artificial Intelligence and Machine Learning for Electrical Systems,4
+EEE310T,Bio Medical Instrumentation,3
+EEE310P,Bio Medical Instrumentation Lab,1
+EEE312T,Introduction to Digital Signal Processing,3
+EEE312P,Introduction to Digital Signal Processing Lab,1
+EEE318,Stochastic Processes and Systems,4
+EEE320T,Utilization of Electrical Energy,3
+EEE320P,Utilization of Electrical Energy Lab,1
+EEE358,Electrical Power Generation Systems,4
+EEE322T,Computer Aided Electrical Machine Design,3
+EEE322P,Computer Aided Electrical Machine Design Lab,1
+EEE324T,Introduction to Data Communication and Networking,3
+EEE324P,Introduction to Data Communication and Networking Lab,1
+EEE326T,Discrete Control Systems,3
+EEE326P,Discrete Control Systems Lab,1
+EEE334T,Research Methodology for Electrical and Electronics Engineering,3
+EEE334P,Research Methodology for Electrical and Electronics Engineering Lab,1
+EEE336T,"Introduction to Transmission Lines, Waveguides and Antenna Design",3
+EEE336P,"Introduction to Transmission Lines, Waveguides and Antenna Design Lab",1
+EEE340T,Electric Drives,3
+EEE340P,Electric Drives Lab,1
+EEE356T,Optimization using Controllers,3
+EEE356P,Optimization using Controllers Lab,1
+EEE360,Process Control,4
+EEE362T,VLSI,3
+EEE362P,VLSI Lab,1
+EEE364T,Systems Design and Simulation,3
+EEE364P,Systems Design and Simulation Lab,1
+EEE366,Introduction to Information and Coding Theory,4
+EEE403,Electricity Distribution Schemes and Policies,4
+EEE405T,Mathematical Analysis of Complex Systems,3
+EEE405P,Mathematical Analysis of Complex Systems Lab,1
+EEE407,Renewable Energy and Policies,4
+EEE409T,Solid State Drives,3
+EEE409P,Solid State Drives Lab,1
+EEE411T,Switchgear and Protection,3
+EEE411P,Switchgear and Protection Lab,1
+EEE413T,Digital Image Processing,3
+EEE413P,Digital Image Processing Lab,1
+EEE421T,e Mobility,3
+EEE421P,e Mobility Lab,1
+EEE423,Energy Conservation Schemes,4
+EEE425,Energy Economics and Policies,4
+EEE427,High Voltage Engineering,4
+EEE429T,Mathematical Model for Reliability of Transmission and Distribution,3
+EEE429P,Mathematical Model for Reliability of Transmission and Distribution Lab,1
+EEE431,Smart Grid and Distributed Generation,4
+EEE433T,Systems Restructuring for Optimization,3
+EEE433P,Systems Restructuring for Optimization Lab,1
+EEC209,Electrical Materials,3
+EEC211,Electrical Machines I,4
+EEC257,Electrical Machines I Lab,1
+EEC259,Electrical Engineering Workshop,1
+ECC218,Electronics II,4
+ECC264,Electronics II Lab,1
+EEC303,Power Systems II,4
+EEC351,Power Systems II Lab,1
+EEC353,Electrical and Electronics Measuring Instruments Lab,1
+EEC355,Introduction to Control Systems Lab,1
+EEC357,Power Electronics Lab,1
+EEE306T,Analog and Digital Communications,3
+EEE306P,Analog and Digital Communications Lab,1
+EEE314,Powerline Carrier Communication,4
+EEE330,Nano Electronics,4
+EEE332,Opto Electronics,4
+EEE338T,Digital Systems Design,3
+EEE338P,Digital Systems Design Lab,1
+EEE354,Electrical Power Generation Systems,4
+EEE415T,Wireless Sensor Networks,3
+EEE415P,Wireless Sensor Networks Lab,1
+EEE417T,Advanced Semiconductor Devices,3
+EEE417P,Advanced Semiconductor Devices Lab,1
+EEE419T,Communication Systems Analysis,3
+EEE419P,Communication Systems Analysis Lab,1
+MEC205,Theory of Machines,4
+MEC207,Strength of Materials,4
+MEC209,Manufacturing Science and Technology I,4
+MEC211,Thermal Engineering I,4
+MEC253,Theory of Machines Lab,1
+MEC255,Strength of Materials Lab,1
+MEC257,Thermal Engineering I Lab,1
+MEC259,Manufacturing Science and Technology I Lab,1
+MEC206,Manufacturing Science and Technology II,4
+MEC208,Material Science and Metallurgy,4
+MEC210,Thermal Engineering II,4
+MEC212,Machine Design I,4
+MEC254,Manufacturing Science and Technology II Lab,1
+MEC256,Thermal Engineering II Lab,1
+MEC258,Machine Design I Lab,1
+MEC303,Machine Design II,3
+MEC305,Fluid Mechanics and Hydraulic Machines,4
+MEC307,Metrology and Instrumentation,3
+MEC309,Industrial Engineering,4
+MEC311,Heat and Mass Transfer,4
+MEC351,Machine Design II Lab,1
+MEC353,Fluid Mechanics and Hydraulic Machines Lab,1
+MEC355,Metrology and Instrumentation Lab,1
+MEC357,Heat and Mass Transfer Lab,1
+MEE306T,Automobile Engineering and Electric Vehicles,3
+MEE306P,Automobile Engineering and Electric Vehicles Lab,1
+MEE308T,Turbomachines,3
+MEE308P,Turbomachines Lab,1
+MEE310T,Finite Element Methods,3
+MEE310P,Finite Element Methods Lab,1
+MEE312T,IC Engines and Gas Turbines,3
+MEE312P,IC Engines and Gas Turbines Lab,1
+MEE314T,Gas Dynamics and Jet Propulsion,3
+MEE314P,Gas Dynamics and Jet Propulsion Lab,1
+MEE316T,Refrigeration and Air Conditioning,3
+MEE316P,Refrigeration and Air Conditioning Lab,1
+MEE318T,Power Plant Engineering,3
+MEE318P,Power Plant Engineering Lab,1
+MEE320T,Mechanical Vibrations,3
+MEE320P,Mechanical Vibrations Lab,1
+MEE322T,Reliability and Maintenance Engineering,3
+MEE322P,Reliability and Maintenance Engineering Lab,1
+MEE324T,Advanced Machine Design,3
+MEE324P,Advanced Machine Design Lab,1
+MEE326T,Introduction to CAD CAM,3
+MEE326P,Introduction to CAD CAM Lab,1
+MEE328T,Robotics Engineering,3
+MEE328P,Robotics Engineering Lab,1
+MEE330T,Advanced Material Science and Metallurgy,3
+MEE330P,Advanced Material Science and Metallurgy Lab,1
+MEE332T,Metal Forming and Press Working,3
+MEE332P,Metal Forming and Press Working Lab,1
+MEE334T,Advances in Welding and Casting,3
+MEE334P,Advances in Welding and Casting Lab,1
+MEE336T,System Modeling Simulation and Analysis,3
+MEE336P,System Modeling Simulation and Analysis Lab,1
+MEE338T,Elastic and Plastic Behaviour of Materials,3
+MEE338P,Elastic and Plastic Behaviour of Materials Lab,1
+MEE403T,Geometric Modelling and Analysis,3
+MEE403P,Geometric Modelling and Analysis Lab,1
+MEE405T,Computer Integrated Manufacturing,3
+MEE405P,Computer Integrated Manufacturing Lab,1
+MEE407T,Control Systems and Applications,3
+MEE407P,Control Systems and Applications Lab,1
+MEE409T,Rapid Prototyping Tooling and Manufacturing,3
+MEE409P,Rapid Prototyping Tooling and Manufacturing Lab,1
+MEE411T,Automation in Manufacturing,3
+MEE411P,Automation in Manufacturing Lab,1
+MEE413T,Strength of Materials II,3
+MEE413P,Strength of Materials II Lab,1
+MEE415T,Design of Mechanical Drives,3
+MEE415P,Design of Mechanical Drives Lab,1
+MEE417T,Design of Experiments,3
+MEE417P,Design of Experiments Lab,1
+MEE419T,Advance Metal Cutting and Tool Design,3
+MEE419P,Advance Metal Cutting and Tool Design Lab,1
+MEE421T,Design of Mechanical Assemblies,3
+MEE421P,Design of Mechanical Assemblies Lab,1
+MEE423T,Non Traditional Manufacturing,3
+MEE423P,Non Traditional Manufacturing Lab,1
+CEC205,Structural Analysis I,4
+CEC207,Structural Design I,4
+CEC209,Fluid Mechanics,4
+CEC211,Geomatics Engineering,4
+CEC253,Civil Engineering Drawing Lab,1
+CEC255,Fluid Mechanics Lab,1
+CEC257,Geomatics Engineering Lab,1
+CEC206,Soil Mechanics,4
+CEC208,Hydraulics and Hydrology,4
+CEC210,Environmental Engineering I,4
+CEC212,Transportation Engineering,4
+CEC254,Soil Mechanics Lab,1
+CEC256,Hydraulics Lab,1
+CEC258,Transportation Engineering Lab,1
+CEC303,Structural Analysis II,4
+CEC305,Structural Design II,3
+CEC307,Geotechnical Engineering,4
+CEC309,Environmental Engineering II,4
+CEC311,Traffic Engineering and Pavement Design,4
+CEC351,Structural Design Lab,1
+CEC353,Building Material and Concrete Testing Lab,1
+CEC355,Geotechnical Engineering Lab,1
+CEC357,Environmental Engineering Lab,1
+CEE306,Advanced Structural Analysis,4
+CEE308,Irrigation Engineering and Design of Hydraulic Structures,4
+CEE310,Environmental Impact Assessment,4
+CEE312T,Advanced Structural Design,3
+CEE312P,Advanced Structural Design Lab,1
+CEE314,Water Resource Planning,4
+CEE316,Pollution Control and Monitoring,4
+CEE318T,Non Destructive Evaluation of Structures,3
+CEE318P,Non Destructive Evaluation of Structures Lab,1
+CEE320,Open Channel Flow and Sediment Transportation,4
+CEE322,Disaster Management,4
+CEE403,Recent Construction Technologies,4
+CEE405T,Arc GIS and Remote Sensing,3
+CEE405P,Arc GIS and Remote Sensing Lab,1
+CEE407T,Transport Planning and Intelligent Transportation System,3
+CEE407P,Transport Planning and Intelligent Transportation System Lab,1
+CEE409,Structural Dynamics,4
+CEE411,Lean Construction Technology and Management,4
+CEE413T,Advanced Surveying,3
+CEE413P,Advanced Surveying Lab,1
+AI302T,Artificial Intelligence,3
+AI302P,Artificial Intelligence Lab,1
+DA304T,"Statistics, Statistical Modelling & Data Analytics",3
+DA304P,"Statistics, Statistical Modelling & Data Analytics Lab",1
+SC401T,Soft Computing,3
+SC401P,Soft Computing Lab,1
+AI403T,Artificial Intelligence Applications,3
+AI403P,Artificial Intelligence Applications Lab,1
+AI405T,Intelligent and Expert Systems,3
+AI405P,Intelligent and Expert Systems Lab,1
+ML407T,Machine Learning,3
+ML407P,Machine Learning Lab,1
+ML409T,Reinforcement Learning and Deep Learning,3
+ML409P,Reinforcement Learning and Deep Learning Lab,1
+ML411T,Pattern Recognition and Computer Vision,3
+ML411P,Pattern Recognition and Computer Vision Lab,1
+AI316T,Artificial Intelligence and Machine Learning,3
+AI316P,Artificial Intelligence and Machine Learning Lab,1
+DS427T,Data Science using R,3
+DS427P,Data Science using R Lab,1
+DS429T,Big Data Analytics,3
+DS429P,Big Data Analytics Lab,1
+DS431T,Business Intelligence,3
+DS431P,Business Intelligence Lab,1
+DS433T,Exploratory Data Analytics and Data Visualization,3
+DS433P,Exploratory Data Analytics and Data Visualization Lab,1
+CS306T,Mathematics of Modern Cryptography,3
+CS306P,Mathematics of Modern Cryptography Lab,1
+BT308T,Blockchain Technology,3
+BT308P,Blockchain Technology Lab,1
+BT413T,Bitcoin and Cryptocurrency Technologies,3
+BT413P,Bitcoin and Cryptocurrency Technologies Lab,1
+BT415T,Smart Contracts,3
+BT415P,Smart Contracts Lab,1
+BT417T,Blockchain for Cyber Security,3
+BT417P,Blockchain for Cyber Security Lab,1
+BT419T,Blockchain Technology in Web Development,3
+BT419P,Blockchain Technology in Web Development Lab,1
+IOT324T,Introduction to Internet of Things,3
+IOT324P,Introduction to Internet of Things Lab,1
+IOT326T,Introduction to Sensors and Transducers,3
+IOT326P,Introduction to Sensors and Transducers Lab,1
+ES328T,Embedded Linux,3
+ES328P,Embedded Linux Lab,1
+IOT330T,Programming in Python,3
+IOT330P,Programming in Python Lab,1
+IOT332T,Wireless Sensor Networks,3
+IOT332P,Wireless Sensor Networks Lab,1
+CS423T,Cyber Security and Forensics,3
+CS423P,Cyber Security and Forensics Lab,1
+IOT441T,"IoT with Arduino, ESP and Raspberry Pi",3
+IOT441P,"IoT with Arduino, ESP and Raspberry Pi Lab",1
+IOT443T,Design of Smart Systems,3
+IOT443P,Design of Smart Systems Lab,1
+IOT445T,Internet of Things Industrial and Medical Case Studies,3
+IOT445P,Internet of Things Industrial and Medical Case Studies Lab,1
+IOT447T,Internet of Things Frameworks,3
+IOT447P,Internet of Things Frameworks Lab,1
+IOT449,Privacy and Security issues in IoT,4
+NET344T,Advanced Computer Networks and Administration,3
+NET344P,Advanced Computer Networks and Administration Lab,1
+NET346T,Linux System Administration,3
+NET346P,Linux System Administration Lab,1
+NET471T,Network Programming,3
+NET471P,Network Programming Lab,1
+NET473T,Cloud Computing and Security,3
+NET473P,Cloud Computing and Security Lab,1
+NET475T,Wireless Sensor Networks,3
+NET475P,Wireless Sensor Networks Lab,1
+CS310T,Information Theory and Coding,3
+CS310P,Information Theory and Coding Lab,1
+CS312T,Network Security and Cryptography,3
+CS312P,Network Security and Cryptography Lab,1
+CS314T,Network Security Issues and Challenges,3
+CS314P,Network Security Issues and Challenges Lab,1
+CS421T,Cyber Crime and Cyber Laws,3
+CS421P,Cyber Crime and Cyber Laws Lab,1
+CS425T,Ethical Hacking,3
+CS425P,Ethical Hacking Lab,1
+ML348T,Artificial Neural Networks and Deep Learning,3
+ML348P,Artificial Neural Networks and Deep Learning Lab,1
+SC477T,Fuzzy Systems and Applications,3
+SC477P,Fuzzy Systems and Applications Lab,1
+SC479T,Global Optimization Methods,3
+SC479P,Global Optimization Methods Lab,1
+SC481T,Soft Computing and Expert Systems,3
+SC481P,Soft Computing and Expert Systems Lab,1
+DA338T,Data Analytics,3
+DA338P,Data Analytics Lab,1
+DS340T,Data Visualization,3
+DS340P,Data Visualization Lab,1
+ML342T,Machine Learning,3
+ML342P,Machine Learning Lab,1
+ML463T,Supervised and Deep Learning,3
+ML463P,Supervised and Deep Learning Lab,1
+ML465T,Unsupervised Learning,3
+ML465P,Unsupervised Learning Lab,1
+ML467T,Machine Learning and Data Analytics Case Studies,3
+ML467P,Machine Learning and Data Analytics Case Studies Lab,1
+ML469T,Machine Learning and Data Analytics Frameworks,3
+ML469P,Machine Learning and Data Analytics Frameworks Lab,1
+SE350T,"Software Measurements, Metrics and Modelling",3
+SE350P,"Software Measurements, Metrics and Modelling Lab",1
+SE352T,Service Oriented Architecture,3
+SE352P,Service Oriented Architecture Lab,1
+SE354T,Software Project Management,3
+SE354P,Software Project Management Lab,1
+SE483T,Mining Software Repositories and Predictive Modelling,3
+SE483P,Mining Software Repositories and Predictive Modelling Lab,1
+SE485,Software Security,4
+SE487T,"Software Verification, Validation and Testing",3
+SE487P,"Software Verification, Validation and Testing Lab",1
+SE489,Software Engineering Standards,4
+FSD318T,Advanced Java Programming,3
+FSD318P,Advanced Java Programming Lab,1
+FSD320T,Web Development using MEAN Stack,3
+FSD320P,Web Development using MEAN Stack Lab,1
+FSD322T,Web Development using MERN Stack,3
+FSD322P,Web Development using MERN Stack Lab,1
+FSD435T,PHP Programming and MySQL,3
+FSD435P,PHP Programming and MySQL Lab,1
+FSD437T,Mobile App Development,3
+FSD437P,Mobile App Development Lab,1
+FSD439T,Web and Mobile Application Testing and Deployment,3
+FSD439P,Web and Mobile Application Testing and Deployment Lab,1
+IPCV334T,Digital Image Processing,3
+IPCV334P,Digital Image Processing Lab,1
+IPCV356T,Digital Signal and Image Processing,3
+IPCV356P,Digital Signal and Image Processing Lab,1
+IPCV336T,Pattern Recognition,3
+IPCV336P,Pattern Recognition Lab,1
+IPCV451T,Computer Vision,3
+IPCV451P,Computer Vision Lab,1
+IPCV453T,Biometrics,3
+IPCV453P,Biometrics Lab,1
+IPCV455T,"Medical Image Processing, Analysis and Reconstruction",3
+IPCV455P,"Medical Image Processing, Analysis and Reconstruction Lab",1
+IPCV457T,Remote Sensing Image Analysis and Classification,3
+IPCV457P,Remote Sensing Image Analysis and Classification Lab,1
+IPCV459T,Deep Learning for Image Processing and Computer Vision,3
+IPCV459P,Deep Learning for Image Processing and Computer Vision Lab,1
+IPCV461T,Machine Learning for Image and Vision Analysis,3
+IPCV461P,Machine Learning for Image and Vision Analysis Lab,1
+RA324T,Robot Kinematics and Dynamics,3
+RA324P,Robot Kinematics and Dynamics Lab,1
+RA437T,Robot Actuation Systems,3
+RA437P,Robot Actuation Systems Lab,1
+RA439T,Control Hardware and Interfacing,3
+RA439P,Control Hardware and Interfacing Lab,1
+RA441T,AI in Robotics,3
+RA441P,AI in Robotics Lab,1
+ES302T,Microprocessors and Interfacing,3
+ES302P,Microprocessors and Interfacing Lab,1
+ES308T,Introduction to Data Communication and Networking,3
+ES308P,Introduction to Data Communication and Networking Lab,1
+ES310T,Advanced Microprocessors (ARM) & Interfacing,3
+ES310P,Advanced Microprocessors (ARM) & Interfacing Lab,1
+ES304,Real Time Operating Systems,4
+ES306T,Embedded System Architecture and Design,3
+ES306P,Embedded System Architecture and Design Lab,1
+ES401T,Programming in C for Embedded Systems,3
+ES401P,Programming in C for Embedded Systems Lab,1
+ES403T,VHDL Programming,3
+ES403P,VHDL Programming Lab,1
+ES405T,Real Time Embedded System Programming,3
+ES405P,Real Time Embedded System Programming Lab,1
+ES407T,Embedded Linux,3
+ES407P,Embedded Linux Lab,1
+IOT409T,Introduction to Sensors and Transducers,3
+IOT409P,Introduction to Sensors and Transducers Lab,1
+ES411T,Logic Design and Analysis using Verilog,3
+ES411P,Logic Design and Analysis using Verilog Lab,1
+VLSI328T,Semiconductor Devices and Modelling,3
+VLSI328P,Semiconductor Devices and Modelling Lab,1
+VLSI330T,VLSI,3
+VLSI330P,VLSI Lab,1
+VLSI443T,CMOS Analog Integrated Circuit Design,3
+VLSI443P,CMOS Analog Integrated Circuit Design Lab,1
+VLSI445T,CMOS Digital Circuits Design,3
+VLSI445P,CMOS Digital Circuits Design Lab,1
+VLSI447,CMOS Mixed Signal Circuit Design,4
+VLSI449T,Low Power VLSI Design,3
+VLSI449P,Low Power VLSI Design Lab,1
+VLSI451,VLSI Testing,4
+MT312T,Energy Storage Systems in Microgrids,3
+MT312P,Energy Storage Systems in Microgrids Lab,1
+MT314T,Modeling and Analysis of Microgrids,3
+MT314P,Modeling and Analysis of Microgrids Lab,1
+MT419T,Microgrid Stability Assessment and Protection,3
+MT419P,Microgrid Stability Assessment and Protection Lab,1
+MT421T,Human Machine Interface for Microgrids,3
+MT421P,Human Machine Interface for Microgrids Lab,1
+MT423T,Power Quality for Microgrids,3
+MT423P,Power Quality for Microgrids Lab,1
+CI306T,PLC and SCADA Systems,3
+CI306P,PLC and SCADA Systems Lab,1
+CI407T,Advanced Control Systems for Instrumentation,3
+CI407P,Advanced Control Systems for Instrumentation Lab,1
+CI409T,Neuro Fuzzy Systems,3
+CI409P,Neuro Fuzzy Systems Lab,1
+CI411T,Non-linear System Design,3
+CI411P,Non-linear System Design Lab,1
+WMC332T,Optical Networks,3
+WMC332P,Optical Networks Lab,1
+WMC334T,Random Processes and Stochastic Systems,3
+WMC334P,Random Processes and Stochastic Systems Lab,1
+WMC336T,Wireless Communication and Networks,3
+WMC336P,Wireless Communication and Networks Lab,1
+WMC338T,Cellular and Mobile Communication,3
+WMC338P,Cellular and Mobile Communication Lab,1
+WMC453T,Ad hoc and Sensor Networks,3
+WMC453P,Ad hoc and Sensor Networks Lab,1
+WMC455T,Mobile Computing,3
+WMC455P,Mobile Computing Lab,1
+WMC457,Cognitive Radio & Networks,4
+WMC459,Privacy and Security in Wireless Networks,4
+PS320T,"Electricity Generation, Transmission and Utilization",3
+PS320P,"Electricity Generation, Transmission and Utilization Lab",1
+PS322T,EHVAC and HVDC Transmission,3
+PS322P,EHVAC and HVDC Transmission Lab,1
+PS431T,Power System Operation and Control,3
+PS431P,Power System Operation and Control Lab,1
+PS433T,Flexible AC Transmission System,3
+PS433P,Flexible AC Transmission System Lab,1
+PS435T,Power System Analysis and Stability,3
+PS435P,Power System Analysis and Stability Lab,1
+CADM302T,Introduction to CAD/CAM,3
+CADM302P,Introduction to CAD/CAM Lab,1
+CADM304T,Injection Moulding and Mould Design,3
+CADM304P,Injection Moulding and Mould Design Lab,1
+CADM401T,Computational Fluid Dynamics,3
+CADM401P,Computational Fluid Dynamics Lab,1
+CADM403T,Computer Aided Design and Drafting,3
+CADM403P,Computer Aided Design and Drafting Lab,1
+CADM405T,Industrial Robotics,3
+CADM405P,Industrial Robotics Lab,1
+PED316T,Advanced Power Electronic Converters,3
+PED316P,Advanced Power Electronic Converters Lab,1
+PED318T,Industrial Control Electronics,3
+PED318P,Industrial Control Electronics Lab,1
+PED425T,Switch Mode Power Conversion,3
+PED425P,Switch Mode Power Conversion Lab,1
+PED427T,Solid State Drives,3
+PED427P,Solid State Drives Lab,1
+PED429T,Solar Photovoltaic Systems,3
+PED429P,Solar Photovoltaic Systems Lab,1
+DMS312T,Industrial Tribology,3
+DMS312P,Industrial Tribology Lab,1
+DMS314T,Quality Management & Quality Control,3
+DMS314P,Quality Management & Quality Control Lab,1
+DMS419T,Fracture Mechanics,3
+DMS419P,Fracture Mechanics Lab,1
+DMS421T,Advance Manufacturing Process,3
+DMS421P,Advance Manufacturing Process Lab,1
+DMS423T,Pressure Vessels and Piping Technology,3
+DMS423P,Pressure Vessels and Piping Technology Lab,1
+EV308T,Electric Vehicle Powertrain and Motor Design,3
+EV308P,Electric Vehicle Powertrain and Motor Design Lab,1
+EV310T,Battery Management Systems,3
+EV310P,Battery Management Systems Lab,1
+EV413T,EV Charging Infrastructure Technology,3
+EV413P,EV Charging Infrastructure Technology Lab,1
+EV415,Economics and Policies of e-Mobility,4
+EV417T,Embedded Systems for Electric Vehicles,3
+EV417P,Embedded Systems for Electric Vehicles Lab,1
+DT316T,Automobile Engineering,3
+DT316P,Automobile Engineering Lab,1
+DT425T,Mechanical Vibrations,3
+DT425P,Mechanical Vibrations Lab,1
+DT427T,Industrial Tribology,3
+DT427P,Industrial Tribology Lab,1
+CEC308,Contract Management,4
+CEC310,Advanced Construction Materials and Practices,4
+CEC413,Quality and Safety Management,4
+CEC415,Lean Construction Technology and Management,4
+CEC417,Recent Construction Technologies,4
+TES330T,Cryogenic Engineering,3
+TES330P,Cryogenic Engineering Lab,1
+TES332T,Energy Systems and Technologies,3
+TES332P,Energy Systems and Technologies Lab,1
+TES447T,Compressible Flow and Jet Propulsion,3
+TES447P,Compressible Flow and Jet Propulsion Lab,1
+TES449T,Green Energy Technology,3
+TES449P,Green Energy Technology Lab,1
+TES451T,Advanced IC Engines,3
+TES451P,Advanced IC Engines Lab,1
+IE322,Water Resource Planning,4
+IE324,Advanced Environmental Engineering and Design,4
+IE435,Metro Systems Engineering,4
+IE437T,Transport Planning and Intelligent Transportation System,3
+IE437P,Transport Planning and Intelligent Transportation System Lab,1
+IE439,Analysis and Design of High-rise Buildings and Bridges,4
+QM326T,Supply Chain Management,3
+QM326P,Supply Chain Management Lab,1
+QM328T,Flexible Manufacturing Systems,3
+QM328P,Flexible Manufacturing Systems Lab,1
+QM441T,Total Quality Management,3
+QM441P,Total Quality Management Lab,1
+QM443T,Statistical Quality Control,3
+QM443P,Statistical Quality Control Lab,1
+QM445,Organizational Behaviour,4
+GTSE318,Planning and Design of Green Buildings,4
+GTSE320,Sustainable Materials and Practices,4
+GTSE429,Green Energy Concepts in Smart Cities,4
+GTSE431,Intelligent Transportation System,4
+GTSE433,Sustainable Engineering Technologies,4
+OCSE306T,C++ Programming,3
+OCSE306P,C++ Programming Lab,1
+OCSE308,Digital Logic and Computer Design,4
+OCSE310T,Data Structures and Algorithms,3
+OCSE310P,Data Structures and Algorithms Lab,1
+OCSE342T,Programming in Java,3
+OCSE342P,Programming in Java Lab,1
+OCSE407T,Introduction to Database Management Systems,3
+OCSE407P,Introduction to Database Management Systems Lab,1
+OCSE409,Operating Systems,4
+OCSE411T,Introduction to Computer Networks,3
+OCSE411P,Introduction to Computer Networks Lab,1
+OCSE413T,Introduction to Software Engineering,3
+OCSE413P,Introduction to Software Engineering Lab,1
+OECE312T,Introduction to Circuits and Systems,3
+OECE312P,Introduction to Circuits and Systems Lab,1
+OECE344T,Introduction to Analog Electronics,3
+OECE344P,Introduction to Analog Electronics Lab,1
+OECE314T,Electronic Devices and Circuits,3
+OECE314P,Electronic Devices and Circuits Lab,1
+OECE415,Digital Logic and Computer Design,4
+OECE417T,Microprocessors and Interfacing,3
+OECE417P,Microprocessors and Interfacing Lab,1
+OECE419T,Analog and Digital Communications,3
+OECE419P,Analog and Digital Communications Lab,1
+OECE421T,Wireless Sensor Networks,3
+OECE421P,Wireless Sensor Networks Lab,1
+OECE423,Control Systems,4
+OECE425T,Introduction to Computer Networks,3
+OECE425P,Introduction to Computer Networks Lab,1
+OEE316T,Introduction to Circuits and Systems,3
+OEE316P,Introduction to Circuits and Systems Lab,1
+OEE346T,Introduction to Analog Electronics,3
+OEE346P,Introduction to Analog Electronics Lab,1
+OEE318T,Introduction to Electrical Machines,3
+OEE318P,Introduction to Electrical Machines Lab,1
+OEE427T,Control Systems for Electrical Engineering,3
+OEE427P,Control Systems for Electrical Engineering Lab,1
+OEE429T,"Generation, Transmission and Distribution",3
+OEE429P,"Generation, Transmission and Distribution Lab",1
+OEE431T,Introduction to Power Electronics,3
+OEE431P,Introduction to Power Electronics Lab,1
+OSD328T,C++ Programming,3
+OSD328P,C++ Programming Lab,1
+OSD330T,Programming in Windows Environment,3
+OSD330P,Programming in Windows Environment Lab,1
+OSD332T,Programming in Java,3
+OSD332P,Programming in Java Lab,1
+OSD334T,Android App Development,3
+OSD334P,Android App Development Lab,1
+OSD336T,Introduction to Database Management Systems,3
+OSD336P,Introduction to Database Management Systems Lab,1
+OSD445T,Data Structures and Algorithms,3
+OSD445P,Data Structures and Algorithms Lab,1
+OSD447T,Project Management,3
+OSD447P,Project Management Lab,1
+OSD449T,Design Patterns,3
+OSD449P,Design Patterns Lab,1
+OSD451T,Introduction to Software Engineering,3
+OSD451P,Introduction to Software Engineering Lab,1
+OSD453T,Advanced Java Programming,3
+OSD453P,Advanced Java Programming Lab,1
+OSD455T,Programming in Linux Environment,3
+OSD455P,Programming in Linux Environment Lab,1
+OME324T,Theory of Machines,3
+OME324P,Theory of Machines Lab,1
+OME326T,Materials and Machine Technology,3
+OME326P,Materials and Machine Technology Lab,1
+OME439T,Fluids and Thermal Engineering,3
+OME439P,Fluids and Thermal Engineering Lab,1
+OME441T,Mechanics and Design of Solids,3
+OME441P,Mechanics and Design of Solids Lab,1
+OME443T,Automation in Manufacturing,3
+OME443P,Automation in Manufacturing Lab,1
+OICE320T,Introduction to Sensors and Transducers,3
+OICE320P,Introduction to Sensors and Transducers Lab,1
+OICE322T,Measurement and Control,3
+OICE322P,Measurement and Control Lab,1
+OICE433,Process Control,4
+OICE435T,Introduction to Industrial Instrumentation,3
+OICE435P,Introduction to Industrial Instrumentation Lab,1
+OICE437T,Bio Medical Instrumentation,3
+OICE437P,Bio Medical Instrumentation Lab,1
+OCE302,Structural Analysis and Design,4
+OCE304,Pipe and Open Channel Hydraulics,4
+OCE401,Green Building Construction Materials and Practices,4
+OCE403,Public Health Engineering,4
+OCE405,Geotechnical and Transportation Engineering,4
+OUHV338,"Understanding Human Being, Nature and Existence Comprehensively",4
+OUHV340,Vision for Humane Society,4
+OUHV457,Human Values and Madhyasth Darshan,4
+OUHV459,Human Values in Buddh and Jain Darshan,4
+OUHV461,"Human Values in Vedic Darshan (Sankhya, Yoga and Vedanta)",4
+OUHV463,Holistic Human Health,4
+OUHV465,Human Sociology,4
+OUHV467,Human Economics,4
