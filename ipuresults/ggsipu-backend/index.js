@@ -184,7 +184,7 @@ app.post("/submit-login", async (req, res) => {
                 document.querySelectorAll("table.modern-table tbody tr"),
             ).map((row) => {
                 const cells = row.querySelectorAll("td");
-                
+
                 // Extract text content from each cell
                 const semester = cells[0]?.innerText.trim() || "";
                 const paperCode = cells[1]?.innerText.trim() || "";
@@ -194,16 +194,16 @@ app.post("/submit-login", async (req, res) => {
                 const total = cells[5]?.innerText.trim() || "0";
                 const exam = cells[6]?.innerText.trim() || "";
                 const declaredDate = cells[7]?.innerText.trim() || "";
-                
-                console.log('Scraped row:', {
+
+                console.log("Scraped row:", {
                     semester,
                     paperCode,
                     subjectName,
                     internal,
                     external,
-                    total
+                    total,
                 });
-                
+
                 return {
                     semester,
                     paperCode,
@@ -216,11 +216,11 @@ app.post("/submit-login", async (req, res) => {
                 };
             });
 
-            console.log('Total subjects scraped:', subjects.length);
+            console.log("Total subjects scraped:", subjects.length);
             return { studentInfo, subjects };
         });
 
-        console.log('Backend received subjects:', scraped.subjects);
+        console.log("Backend received subjects:", scraped.subjects);
 
         // ---------- ANALYTICS ----------
         const analytics = calculateAnalytics(scraped.subjects, creditMap);
@@ -243,6 +243,8 @@ app.post("/submit-login", async (req, res) => {
 //     console.log("Backend running on http://127.0.0.1:9999");
 // });
 
+const PORT = process.env.PORT || 9999;
+
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
