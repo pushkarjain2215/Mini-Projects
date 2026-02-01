@@ -1,9 +1,11 @@
-const API = "http://127.0.0.1:9999";
+// const API = "http://127.0.0.1:9999";
+
+const API = "http://127.0.0.1:PORT";
 
 // Load captcha immediately when script loads (if on login page)
-if (document.readyState === 'loading') {
+if (document.readyState === "loading") {
     // If DOM is still loading, wait for it
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener("DOMContentLoaded", () => {
         if (!window.location.pathname.includes("dashboard")) {
             loadCaptcha();
         }
@@ -28,9 +30,9 @@ function togglePasswordVisibility() {
     const passwordInput = document.getElementById("password");
     const eyeIcon = document.getElementById("eyeIcon");
     const eyeOffIcon = document.getElementById("eyeOffIcon");
-    
+
     if (!passwordInput || !eyeIcon || !eyeOffIcon) return;
-    
+
     if (passwordInput.type === "password") {
         passwordInput.type = "text";
         eyeIcon.style.display = "none";
@@ -62,16 +64,18 @@ async function loadCaptcha() {
             loader.style.display = "none";
             img.style.display = "block";
         };
-        
+
         img.onerror = () => {
             // If image fails to load, show error
-            loader.innerHTML = '<span style="color: #dc2626;">Failed to load captcha. Click reload.</span>';
+            loader.innerHTML =
+                '<span style="color: #dc2626;">Failed to load captcha. Click reload.</span>';
         };
 
         img.src = "data:image/png;base64," + data.captcha;
     } catch (err) {
         console.error("Captcha fetch failed", err);
-        loader.innerHTML = '<span style="color: #dc2626;">Failed to load captcha. Click reload.</span>';
+        loader.innerHTML =
+            '<span style="color: #dc2626;">Failed to load captcha. Click reload.</span>';
     }
 }
 
@@ -240,30 +244,46 @@ document.addEventListener("DOMContentLoaded", () => {
                         console.log(`Subject ${index}:`, subject);
 
                         // Extract and display values, with proper fallbacks
-                        const paperCode = (subject.paperCode && subject.paperCode.trim() !== '') ? subject.paperCode.trim() : "N/A";
-                        const subjectName = (subject.subjectName && subject.subjectName.trim() !== '') ? subject.subjectName.trim() : "N/A";
-                        const internal = (subject.internal !== undefined && 
-                                         subject.internal !== null && 
-                                         subject.internal.toString().trim() !== '') 
-                                         ? subject.internal.toString().trim() 
-                                         : "0";
-                        const external = (subject.external !== undefined && 
-                                         subject.external !== null && 
-                                         subject.external.toString().trim() !== '') 
-                                         ? subject.external.toString().trim() 
-                                         : "0";
-                        const total = (subject.total !== undefined &&
-                                      subject.total !== null &&
-                                      subject.total.toString().trim() !== '')
-                                      ? subject.total.toString().trim()
-                                      : (subject.marks !== undefined && subject.marks !== null)
-                                        ? subject.marks.toString()
-                                        : "0";
-                        const credits = (subject.credits !== undefined &&
-                                        subject.credits !== null)
-                                        ? subject.credits.toString()
-                                        : "0";
-                        const grade = (subject.grade && subject.grade.toString().trim() !== '') ? subject.grade.toString().trim() : "N/A";
+                        const paperCode =
+                            subject.paperCode && subject.paperCode.trim() !== ""
+                                ? subject.paperCode.trim()
+                                : "N/A";
+                        const subjectName =
+                            subject.subjectName &&
+                            subject.subjectName.trim() !== ""
+                                ? subject.subjectName.trim()
+                                : "N/A";
+                        const internal =
+                            subject.internal !== undefined &&
+                            subject.internal !== null &&
+                            subject.internal.toString().trim() !== ""
+                                ? subject.internal.toString().trim()
+                                : "0";
+                        const external =
+                            subject.external !== undefined &&
+                            subject.external !== null &&
+                            subject.external.toString().trim() !== ""
+                                ? subject.external.toString().trim()
+                                : "0";
+                        const total =
+                            subject.total !== undefined &&
+                            subject.total !== null &&
+                            subject.total.toString().trim() !== ""
+                                ? subject.total.toString().trim()
+                                : subject.marks !== undefined &&
+                                    subject.marks !== null
+                                  ? subject.marks.toString()
+                                  : "0";
+                        const credits =
+                            subject.credits !== undefined &&
+                            subject.credits !== null
+                                ? subject.credits.toString()
+                                : "0";
+                        const grade =
+                            subject.grade &&
+                            subject.grade.toString().trim() !== ""
+                                ? subject.grade.toString().trim()
+                                : "N/A";
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
@@ -312,26 +332,52 @@ document.addEventListener("DOMContentLoaded", () => {
             const profileDetails = document.getElementById("profileDetails");
 
             // Extract common fields - only get first match to avoid duplicates
-            const nameFields = ['Name', 'Student Name', 'Full Name', 'Student'];
-            const enrollmentFields = ['Enrollment Number', 'Enrollment No', 'Enrollment', 'Enroll No'];
-            const programFields = ['Program', 'Course', 'Programme', 'Degree'];
-            const branchFields = ['Branch', 'Department', 'Stream', 'Specialization'];
+            const nameFields = ["Name", "Student Name", "Full Name", "Student"];
+            const enrollmentFields = [
+                "Enrollment Number",
+                "Enrollment No",
+                "Enrollment",
+                "Enroll No",
+            ];
+            const programFields = ["Program", "Course", "Programme", "Degree"];
+            const branchFields = [
+                "Branch",
+                "Department",
+                "Stream",
+                "Specialization",
+            ];
 
-            let studentName = '';
-            let enrollment = '';
-            let program = '';
-            let branch = '';
+            let studentName = "";
+            let enrollment = "";
+            let program = "";
+            let branch = "";
 
             // Find values for common fields - only first match
             for (const [key, value] of Object.entries(studentInfo)) {
                 const keyLower = key.toLowerCase();
-                if (!studentName && nameFields.some(f => keyLower.includes(f.toLowerCase()))) {
+                if (
+                    !studentName &&
+                    nameFields.some((f) => keyLower.includes(f.toLowerCase()))
+                ) {
                     studentName = value;
-                } else if (!enrollment && enrollmentFields.some(f => keyLower.includes(f.toLowerCase()))) {
+                } else if (
+                    !enrollment &&
+                    enrollmentFields.some((f) =>
+                        keyLower.includes(f.toLowerCase()),
+                    )
+                ) {
                     enrollment = value;
-                } else if (!program && programFields.some(f => keyLower.includes(f.toLowerCase()))) {
+                } else if (
+                    !program &&
+                    programFields.some((f) =>
+                        keyLower.includes(f.toLowerCase()),
+                    )
+                ) {
                     program = value;
-                } else if (!branch && branchFields.some(f => keyLower.includes(f.toLowerCase()))) {
+                } else if (
+                    !branch &&
+                    branchFields.some((f) => keyLower.includes(f.toLowerCase()))
+                ) {
                     branch = value;
                 }
             }
@@ -353,34 +399,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Create compact details - only show essential unique fields
             // Don't show enrollment in details if it's already in subtitle
-            profileDetails.innerHTML = '';
+            profileDetails.innerHTML = "";
             const displayedValues = new Set();
 
             // Only show program and branch if they exist and are unique
             // Skip enrollment if it's already shown in subtitle
-            if (program && !displayedValues.has(program) && program !== enrollment) {
+            if (
+                program &&
+                !displayedValues.has(program) &&
+                program !== enrollment
+            ) {
                 displayedValues.add(program);
-                const detailItem = createDetailItem('Program', program);
+                const detailItem = createDetailItem("Program", program);
                 profileDetails.appendChild(detailItem);
             }
-            
-            if (branch && !displayedValues.has(branch) && branch !== enrollment) {
+
+            if (
+                branch &&
+                !displayedValues.has(branch) &&
+                branch !== enrollment
+            ) {
                 displayedValues.add(branch);
-                const detailItem = createDetailItem('Branch', branch);
+                const detailItem = createDetailItem("Branch", branch);
                 profileDetails.appendChild(detailItem);
             }
-            
+
             // Only show enrollment in details if it's NOT in subtitle (i.e., if name was used in subtitle instead)
-            if (enrollment && !displayedValues.has(enrollment) && profileSubtitle.textContent !== enrollment) {
+            if (
+                enrollment &&
+                !displayedValues.has(enrollment) &&
+                profileSubtitle.textContent !== enrollment
+            ) {
                 displayedValues.add(enrollment);
-                const detailItem = createDetailItem('Enrollment', enrollment);
+                const detailItem = createDetailItem("Enrollment", enrollment);
                 profileDetails.appendChild(detailItem);
             }
         }
 
         function createDetailItem(label, value) {
-            const item = document.createElement('div');
-            item.className = 'profile-detail-item';
+            const item = document.createElement("div");
+            item.className = "profile-detail-item";
             item.innerHTML = `
                 <span class="detail-label">${label}</span>
                 <span class="detail-value">${value}</span>
