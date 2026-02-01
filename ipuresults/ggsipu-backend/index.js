@@ -239,6 +239,10 @@ app.post("/submit-login", async (req, res) => {
     }
 });
 
-app.listen(9999, () => {
-    console.log("Backend running on http://127.0.0.1:9999");
+// app.listen(9999, () => {
+//     console.log("Backend running on http://127.0.0.1:9999");
+// });
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });

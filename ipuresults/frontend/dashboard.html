@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPU Results Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RBCXH1547"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6RBCXH1547');
+    </script>
+    
 </head>
 
 <body class="dashboard">
@@ -38,9 +49,10 @@
             <div class="profile-content">
                 <div class="profile-header">
                     <div class="profile-avatar">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                            <circle cx="12" cy="7" r="4"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
                         </svg>
                     </div>
                     <div class="profile-info">
@@ -358,7 +370,7 @@
             <section class="card">
                 <div class="card-header">
                     <h2 class="card-title">Semester 5 Summary</h2>
-                </div>
+                </div>`
                 <div class="card-body">
                     <div class="summary-grid" id="sem5-summary">
                         <!-- Semester summary details will be populated by JavaScript -->
