@@ -48,17 +48,22 @@ PAGE = """
     <input name="code" placeholder="Custom code, e.g. github" required
            pattern="[A-Za-z0-9_-]+" title="Use letters, numbers, hyphens, or underscores">
     <input name="url" type="url" placeholder="https://example.com" required>
+    <select name="mode" aria-label="Link behavior">
+      <option value="redirect">Normal redirect</option>
+      <option value="embed">Embedded mode</option>
+    </select>
     <button type="submit">Create link</button>
   </form>
   <h2>Your links ({{ links|length }})</h2>
   {% if links %}
   <table>
-    <thead><tr><th>Short link</th><th>Destination</th><th></th></tr></thead>
+    <thead><tr><th>Short link</th><th>Destination</th><th>Mode</th><th></th></tr></thead>
     <tbody>
-    {% for code, url in links %}
+    {% for code, item in links %}
       <tr>
         <td><a href="{{ request.host_url }}{{ code }}" target="_blank" rel="noopener">{{ request.host_url }}{{ code }}</a></td>
-        <td>{{ url }}</td>
+        <td>{{ item.url }}</td>
+        <td>{{ "Embedded" if item.mode == "embed" else "Redirect" }}</td>
         <td>
           <form method="post" action="/admin/delete/{{ code }}" onsubmit="return confirm('Delete this short link?')">
             <button class="delete" type="submit">Delete</button>
@@ -113,35 +118,32 @@ def read_links():
 
 def parse_csv(content):
     reader = csv.DictReader(io.StringIO(content))
-    return {
-        row["code"]: row["url"]
-        for row in reader
-        if row.get("code") and row.get("url")
-    }
+    links = {}
+    for row in reader:
+        code, url = row.get("code"), row.get("url")
+        if code and url:
+            mode = row.get("mode") or "embed"
+            if mode not in ("redirect", "embed"):
+                mode = "embed"
+            links[code] = {"url": url, "mode": mode}
+    return links
 
 
 def write_links(links):
     ensure_storage_is_configured()
-
     output = io.StringIO(newline="")
-    writer = csv.DictWriter(output, fieldnames=["code", "url"])
+    writer = csv.DictWriter(output, fieldnames=["code", "url", "mode"])
     writer.writeheader()
-    for code, url in sorted(links.items()):
-        writer.writerow({"code": code, "url": url})
+    for code, item in sorted(links.items()):
+        writer.writerow({"code": code, "url": item["url"], "mode": item.get("mode", "embed")})
     csv_bytes = output.getvalue().encode("utf-8")
 
     if blob_storage_enabled():
         from vercel.blob import sync as blob
-        blob.put_blob(
-            BLOB_PATH,
-            csv_bytes,
-            access="private",
-            content_type="text/csv; charset=utf-8",
-            allow_overwrite=True,
-        )
+        blob.put_blob(BLOB_PATH, csv_bytes, access="private",
+                      content_type="text/csv; charset=utf-8", allow_overwrite=True)
         return
 
-    # Local development fallback.
     from pathlib import Path
     local_path = Path(CSV_PATH)
     local_path.parent.mkdir(parents=True, exist_ok=True)
@@ -192,6 +194,9 @@ def admin():
 def add_link():
     code = request.form.get("code", "").strip()
     url = request.form.get("url", "").strip()
+    mode = request.form.get("mode", "redirect").strip()
+    if mode not in ("redirect", "embed"):
+        abort(400, "Invalid link mode.")
 
     if not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", code):
         abort(400, "Short code must be 1 to 64 letters, numbers, hyphens, or underscores.")
@@ -204,7 +209,7 @@ def add_link():
         links = read_links()
         if code in links:
             return redirect("/admin?message=That+short+code+already+exists.")
-        links[code] = url
+        links[code] = {"url": url, "mode": mode}
         write_links(links)
 
     return redirect("/admin?message=Link+created.")
@@ -245,10 +250,12 @@ EMBED_PAGE = """
 @app.get("/<code>")
 def follow_link(code):
     links = read_links()
-    destination = links.get(code)
-    if not destination:
+    item = links.get(code)
+    if not item:
         abort(404)
-    # Embedded mode keeps the short URL in the browser address bar.
+    destination = item["url"]
+    if item.get("mode", "embed") == "redirect":
+        return redirect(destination, code=302)
     return render_template_string(EMBED_PAGE, code=code, destination=destination)
 
 

@@ -114,3 +114,15 @@ Some destination websites deliberately block iframe embedding using `X-Frame-Opt
 
 
 The embedded page fills the viewport without an application toolbar or banner.
+
+
+## Per-link behavior
+
+Choose **Normal redirect** or **Embedded mode** when creating each link.
+Normal redirect sends an HTTP 302 response. Embedded mode fills the browser
+viewport with an iframe and keeps the short URL in the address bar.
+
+The CSV schema is now `code,url,mode`. Existing CSV rows without a `mode`
+column continue to use embedded mode, preserving their previous behavior.
+New links default to Normal redirect. Some websites block iframe embedding;
+use Normal redirect for those destinations.
