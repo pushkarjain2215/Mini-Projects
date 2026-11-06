@@ -265,11 +265,11 @@ DASH = r"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport
 <form method="post" action="/admin/bulk" id="bulk"><div class="toolbar"><select name="action"><option value="archive">Archive selected</option><option value="restore">Restore selected</option><option value="favorite">Favourite selected</option><option value="unfavorite">Unfavourite selected</option><option value="delete">Delete selected</option></select><button class="btn-light" type="submit" onclick="return confirm('Apply this action to selected links?')">Apply bulk action</button></div>
 {% if links %}<div class="table-wrap"><table><thead><tr><th><input type="checkbox" onclick="document.querySelectorAll('.pick').forEach(x=>x.checked=this.checked)"></th><th>Short link</th><th>Destination</th><th>Mode / status</th><th>Clicks</th><th>Actions</th></tr></thead><tbody>{% for code,item in links %}<tr><td><input class="pick" type="checkbox" name="codes" value="{{ code }}"></td><td><a class="short" href="{{ short_url(code) }}" target="_blank">/{{ code }}</a><div class="small">{{ item.category }} · {{ item.tags }}</div></td><td>{{ item.url[:90] }}{% if item.favorite=='1' %} ★{% endif %}</td><td><span class="pill">{{ item.mode }}</span> <span class="pill">{{ states[code] }}</span>{% if item.password_hash %}<span class="pill">Protected</span>{% endif %}</td><td>{{ counts.get(code,0) }}</td><td><div class="actions"><button type="button" class="copy" data-url="{{ short_url(code) }}">Copy</button><a class="btn btn-light" href="/admin/qr/{{ code }}">QR</a><a class="btn btn-light" href="/admin/analytics/{{ code }}">Stats</a><a class="btn btn-light" href="/admin/clone/{{ code }}">Clone</a><a class="btn btn-light" href="/admin/edit/{{ code }}">Edit</a><form class="inline" method="post" action="/admin/archive/{{ code }}"><button class="btn-light">{{ 'Restore' if item.archived=='1' else 'Archive' }}</button></form></div></td></tr>{% endfor %}</tbody></table></div>{% else %}<p class="small">No links match these filters.</p>{% endif %}</form></section><div class="footer">All application dates and times are interpreted in India Standard Time.</div></main><script>document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.url);b.textContent='Copied'}catch(e){prompt('Copy short URL',b.dataset.url)}}));</script></body></html>"""
 
-def dashboard_context(links, events, **kwargs):
+def dashboard_context(all_links, events, **kwargs):
     counts = Counter(e["code"] for e in events)
-    states = {c: link_state(item) for c, item in links.items()}
+    states = {c: link_state(item) for c, item in all_links.items()}
     stats = {
-        "total": len(links),
+        "total": len(all_links),
         "active": sum(s == "Active" for s in states.values()),
         "scheduled": sum(s == "Scheduled" for s in states.values()),
         "archived": sum(s == "Archived" for s in states.values()),
