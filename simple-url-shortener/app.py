@@ -176,7 +176,7 @@ def valid_destination(url):
 
 @app.get("/")
 def home():
-    return "Personal URL shortener is running."
+    return ""
 
 
 @app.get("/admin")
