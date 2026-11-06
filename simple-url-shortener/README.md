@@ -111,3 +111,6 @@ For your personal use, avoid editing links simultaneously from multiple browser 
 Every short link renders its destination inside an iframe. The browser address bar remains on the short URL, for example `https://go.example.com/github`.
 
 Some destination websites deliberately block iframe embedding using `X-Frame-Options` or Content-Security-Policy `frame-ancestors`. Those sites cannot be embedded by this app; the page provides an "Open destination in a new tab" fallback. Embedded pages may also have limitations with authentication, cookies, payments, and browser permissions. This mode does not proxy or copy the destination website.
+
+
+The embedded page fills the viewport without an application toolbar or banner.

@@ -227,21 +227,13 @@ EMBED_PAGE = """
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ code }} | Embedded destination</title>
+  <title>{{ code }}</title>
   <style>
-    html, body { margin: 0; width: 100%; height: 100%; font-family: system-ui, sans-serif; }
-    .topbar { box-sizing: border-box; height: 42px; padding: 10px 14px; background: #f4f4f5;
-              color: #333; font-size: 13px; display: flex; justify-content: space-between;
-              align-items: center; gap: 12px; }
-    .topbar a { color: #2457c5; text-decoration: none; white-space: nowrap; }
-    iframe { display: block; width: 100%; height: calc(100% - 42px); border: 0; }
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+    iframe { display: block; width: 100%; height: 100%; border: 0; }
   </style>
 </head>
 <body>
-  <div class="topbar">
-    <span>Destination for /{{ code }}</span>
-    <a href="{{ destination }}" target="_blank" rel="noopener noreferrer">Open destination in a new tab</a>
-  </div>
   <iframe src="{{ destination }}" title="Destination website"
           referrerpolicy="no-referrer-when-downgrade"
           allow="fullscreen; autoplay; clipboard-read; clipboard-write"></iframe>
