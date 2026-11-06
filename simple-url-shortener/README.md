@@ -75,3 +75,7 @@ CSV export contains the stored password hash column, not the original password. 
 - Embedded Mode depends on the destination allowing iframe embedding through its security policy. Use Normal Redirect for sites that block iframes.
 - Password protection gates access to the short link; it does not make the destination website itself private after access is granted.
 - Admin routes use HTTP Basic Authentication. Use a strong unique password and retain HTTPS.
+
+
+## Time zone
+All application timestamps, click analytics timestamps, and link expiration dates use India Standard Time (IST, Asia/Kolkata). Expiration date inputs are interpreted in IST.

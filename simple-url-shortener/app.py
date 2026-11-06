@@ -1,3 +1,4 @@
+from zoneinfo import ZoneInfo
 import csv, io, os, re, threading
 from datetime import datetime, timezone
 from functools import wraps
@@ -9,6 +10,9 @@ from flask import Flask, abort, redirect, render_template_string, request, Respo
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
+
+IST = ZoneInfo("Asia/Kolkata")
+
 ADMIN_USERNAME = os.environ.get('ADMIN_USERNAME', 'admin')
 ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD')
 CSV_DIR = os.environ.get('CSV_DIR', 'data')
@@ -20,7 +24,7 @@ LINK_FIELDS = ['code','url','mode','category','tags','expires_at','password_hash
 CLICK_FIELDS = ['code','clicked_at','user_agent','referrer']
 
 
-def now_iso(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
+def now_iso(): return datetime.now(IST).isoformat(timespec='seconds')
 def blob_enabled(): return bool(os.environ.get('BLOB_READ_WRITE_TOKEN')) or bool(os.environ.get('BLOB_STORE_ID') and os.environ.get('VERCEL_OIDC_TOKEN'))
 def ensure_storage():
     if os.environ.get('VERCEL') and not blob_enabled(): raise RuntimeError('Private Vercel Blob is not connected.')
