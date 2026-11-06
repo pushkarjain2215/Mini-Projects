@@ -104,3 +104,10 @@ A subdomain such as `go.example.com` is a good choice if your main domain hosts 
 This is designed for personal, low-volume use and infrequent link edits. Vercel Functions are stateless and can run on multiple instances. The process-local lock prevents overlapping writes only within one instance. Two simultaneous admin writes on separate instances could overwrite one another because a single CSV file does not provide database-style transactions or distributed locking.
 
 For your personal use, avoid editing links simultaneously from multiple browser sessions. Keep periodic backups of the CSV. Public visitors can follow links, but cannot read the private CSV directly.
+
+
+## Embedded mode
+
+Every short link renders its destination inside an iframe. The browser address bar remains on the short URL, for example `https://go.example.com/github`.
+
+Some destination websites deliberately block iframe embedding using `X-Frame-Options` or Content-Security-Policy `frame-ancestors`. Those sites cannot be embedded by this app; the page provides an "Open destination in a new tab" fallback. Embedded pages may also have limitations with authentication, cookies, payments, and browser permissions. This mode does not proxy or copy the destination website.

@@ -176,7 +176,7 @@ def valid_destination(url):
 
 @app.get("/")
 def home():
-    return ""
+    return "Personal URL shortener is running."
 
 
 @app.get("/admin")
@@ -221,13 +221,43 @@ def delete_link(code):
     return redirect("/admin?message=Link+deleted.")
 
 
+EMBED_PAGE = """
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ code }} | Embedded destination</title>
+  <style>
+    html, body { margin: 0; width: 100%; height: 100%; font-family: system-ui, sans-serif; }
+    .topbar { box-sizing: border-box; height: 42px; padding: 10px 14px; background: #f4f4f5;
+              color: #333; font-size: 13px; display: flex; justify-content: space-between;
+              align-items: center; gap: 12px; }
+    .topbar a { color: #2457c5; text-decoration: none; white-space: nowrap; }
+    iframe { display: block; width: 100%; height: calc(100% - 42px); border: 0; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span>Destination for /{{ code }}</span>
+    <a href="{{ destination }}" target="_blank" rel="noopener noreferrer">Open destination in a new tab</a>
+  </div>
+  <iframe src="{{ destination }}" title="Destination website"
+          referrerpolicy="no-referrer-when-downgrade"
+          allow="fullscreen; autoplay; clipboard-read; clipboard-write"></iframe>
+</body>
+</html>
+"""
+
+
 @app.get("/<code>")
 def follow_link(code):
     links = read_links()
     destination = links.get(code)
     if not destination:
         abort(404)
-    return redirect(destination, code=302)
+    # Embedded mode keeps the short URL in the browser address bar.
+    return render_template_string(EMBED_PAGE, code=code, destination=destination)
 
 
 if __name__ == "__main__":
