@@ -232,7 +232,7 @@ def link_analytics(code):
     if code not in load_links(): abort(404)
     events=[e for e in load_clicks() if e['code']==code][-100:][::-1]
     rows=''.join(f'<tr><td>{e["clicked_at"]}</td><td>{e["referrer"]}</td><td>{e["user_agent"]}</td></tr>' for e in events)
-    return render_template_string('''<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>'''+STYLE+'''</style></head><body><main class="wrap"><section class="card"><h1>Analytics: /{{ code }}</h1><p class="sub">Showing latest {{ count }} events.</p><table><thead><tr><th>UTC time</th><th>Referrer</th><th>Browser</th></tr></thead><tbody>'''+rows+'''</tbody></table><p><a class="btn btn-light" href="/admin">Dashboard</a></p></section></main></body></html>''',code=code,count=len(events))
+    return render_template_string('''<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>'''+STYLE+'''</style></head><body><main class="wrap"><section class="card"><h1>Analytics: /{{ code }}</h1><p class="sub">Showing latest {{ count }} events.</p><table><thead><tr><th>IST time</th><th>Referrer</th><th>Browser</th></tr></thead><tbody>'''+rows+'''</tbody></table><p><a class="btn btn-light" href="/admin">Dashboard</a></p></section></main></body></html>''',code=code,count=len(events))
 
 @app.get('/admin/qr/<code>')
 @require_admin
