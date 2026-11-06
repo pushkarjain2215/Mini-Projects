@@ -1,45 +1,80 @@
-# Simple URL Shortener
+# Personal URL Shortener
 
-Standalone Flask URL shortener for Vercel. It retains private Vercel Blob storage, CSV persistence, per-link redirect and embedded modes, and the navy blue Link Manager design. No database is used.
+A standalone Flask URL shortener for Vercel. This version retains the existing private Vercel Blob storage path and CSV based persistence. The admin interface uses the navy and white Link Manager design.
 
-## Included features
+## Features
 
-1. Edit an existing link's destination, mode, category, tags, expiration, and password. The short code itself remains fixed.
-2. One-click copy of each short URL.
-3. Search by code, destination, category, or tags. Filter by mode, category, and active or archived status.
-4. Generate and download a PNG QR code for each short URL.
-5. Store one category and comma-separated tags per link.
-6. Track total clicks per link, all-time clicks, and recent event details including UTC timestamp, referrer, and browser user agent.
-7. Import and export link records as CSV.
-8. Set an optional expiration date and time. The dashboard explicitly labels this field UTC.
-9. Protect an individual short link with a password. Passwords are stored as Werkzeug password hashes, never plaintext.
-10. Archive and restore links. Archived and expired links return 404 to visitors.
+### Security and reliability
+1. Admin login uses a signed session with a configurable inactivity timeout.
+2. Optional authenticator based two factor authentication using TOTP.
+3. Login attempt throttling, with a limit of eight failed attempts per IP in a rolling fifteen minute window per running function instance.
+4. Password protected short links store password hashes.
+5. Private CSV backup download containing both links and click history.
+6. Health check at `/health`.
+7. CSV imports validate URLs and short codes, enforce a 2 MB upload limit, and write through a temporary local file when running locally.
+8. Error logging is sent to the Vercel function logs.
 
-Normal Redirect uses HTTP 302. Embedded Mode displays the destination in a full-viewport iframe, keeping the short URL in the address bar. Some destination websites block iframe embedding.
+### Analytics
+1. Total clicks and daily unique visitor estimates.
+2. Seven day click trend.
+3. Device, browser, operating system, country, and referrer host breakdowns.
+4. Per link click history with IST timestamps.
+5. Visitor identifiers are daily salted hashes. Raw visitor IP addresses are not stored.
+6. Country, region, and city values use Vercel request headers when available. City and region are stored in the event schema for future reporting.
 
-## Storage and compatibility
+### Link management and routing
+1. Create, edit, archive, restore, clone, and bulk manage links.
+2. Search by code, URL, category, tags, and notes.
+3. Custom QR code downloads.
+4. Categories, tags, private notes, and favourites.
+5. CSV import and export.
+6. Optional password protection.
+7. Scheduled activation and expiration dates interpreted in India Standard Time.
+8. Normal HTTP 302 redirect or full viewport embedded mode.
+9. Device based destination routing for mobile and desktop visitors.
+10. Country based routing using a JSON map of two letter country codes to destination URLs.
+11. A/B destinations, one per line, assigned consistently using a daily visitor hash.
 
-The app stores two private CSV objects in the existing Vercel Blob store:
+## Existing data compatibility
 
-- Existing link file: `url-shortener/links.csv` (the exact legacy path used by the earlier app, unless overridden by `BLOB_CSV_PATH`).
-- Click log: `url-shortener/clicks.csv`, alongside the link file.
+The application continues to use the existing links object:
+`url-shortener/links.csv`
 
-`BLOB_CSV_PATH` continues to identify the complete links CSV object path, not a directory. Its default is `url-shortener/links.csv`. If you previously set this variable to a custom path, keep that same value. The click log is written beside that file.
+The click log is stored beside it:
+`url-shortener/clicks.csv`
 
-The app reads legacy rows with only `code,url` or `code,url,mode`. Missing modes default to `embed`, preserving the behaviour of existing links. Additional columns are added when the link file is next written. No migration or new Blob store is required.
+`BLOB_CSV_PATH` continues to identify the complete links CSV object path. Keep its current value if you previously configured a custom path. Existing rows with only `code,url` or `code,url,mode` remain readable. Missing legacy modes default to embedded mode to preserve existing behaviour. New links default to normal redirect mode.
 
-## Deploy over your existing Vercel project
+The new CSV columns are appended when links are next saved. No new Blob store or DNS change is required.
 
-1. Back up your existing repository and, preferably, export your current links from the old dashboard before replacing files.
-2. Replace the project files with the contents of this ZIP.
-3. Keep the same GitHub repository, Vercel project, Blob connection, environment variables, and custom domain.
-4. Ensure these existing Vercel environment variables remain configured:
-   - `ADMIN_USERNAME`
-   - `ADMIN_PASSWORD`
-   - `BLOB_READ_WRITE_TOKEN` (provided by the connected private Blob store when read/write token injection is enabled)
-5. Push the changes to GitHub. Vercel should automatically redeploy.
+## Vercel environment variables
 
-No changes to DNS, domain settings, Blob store connection, or credentials are required.
+Keep the existing variables:
+* `ADMIN_USERNAME`
+* `ADMIN_PASSWORD`
+* `BLOB_READ_WRITE_TOKEN`
+* `BLOB_CSV_PATH`, only if you previously set a custom path
+
+Recommended additions:
+* `FLASK_SECRET_KEY`: a long random secret used to sign admin sessions. Set this to a stable value in Vercel.
+* `ANALYTICS_HASH_SECRET`: a separate long random secret used to derive daily visitor identifiers.
+* `SESSION_TIMEOUT_MINUTES`: inactivity timeout in minutes. Defaults to 30.
+* `ADMIN_TOTP_SECRET`: optional Base32 TOTP secret from an authenticator application. When configured, a six digit authenticator code is required at login.
+
+If `ADMIN_TOTP_SECRET` is configured, `pyotp` is installed by requirements. Generate and retain the TOTP secret securely. Losing it can lock you out until the environment variable is changed.
+
+Do not change or disconnect the existing private Blob store.
+
+## Deploy on the existing Vercel project
+
+1. Download and extract this ZIP.
+2. Back up the GitHub repository and download a data backup from `/admin/backup` before replacing the application.
+3. Replace the repository files with the extracted project files.
+4. Add the recommended environment variables in Vercel Project Settings, Environment Variables. Keep the existing Blob token and admin credentials.
+5. Commit and push to the same GitHub repository.
+6. Wait for the Vercel deployment to complete, then open `/login` on your custom domain.
+
+No DNS or domain changes are required.
 
 ## Local development on macOS
 
@@ -49,33 +84,33 @@ source venv/bin/activate
 pip install -r requirements.txt
 export ADMIN_USERNAME=yourusername
 export ADMIN_PASSWORD='use-a-long-unique-password'
+export FLASK_SECRET_KEY='use-a-long-random-secret'
 python3 app.py
 ```
 
-Local CSV files are written under `data/`. Open `http://localhost:5000/admin`.
+Open `http://localhost:5000/login`. Local CSV files are stored in `data/`.
 
-## CSV import columns
+## CSV format
 
 Required columns: `code,url`.
 
-Optional columns: `mode,category,tags,expires_at,password,archived`.
+Optional columns include:
+`mode,category,tags,expires_at,starts_at,password,password_hash,archived,favorite,created_at,notes,mobile_url,desktop_url,country_rules,ab_urls,fallback_url`.
 
-- `mode`: `redirect` or `embed`.
-- `tags`: comma-separated text.
-- `expires_at`: ISO datetime, preferably UTC, such as `2026-12-31T23:59`.
-- `password`: optional plaintext input to import; the app hashes it before storage.
-- `archived`: `1` or `0`.
+The `expires_at` and `starts_at` values accept ISO date and time values. Naive values are interpreted as IST. Prefer values in `YYYY-MM-DDTHH:MM` format when entering them through the dashboard.
 
-CSV export contains the stored password hash column, not the original password. Treat exports as sensitive because they contain destinations and password hashes.
+CSV exports include password hashes, not plaintext passwords. Treat exports and backups as sensitive.
 
-## Important operational limitations
+## Important limitations
 
-- CSV overwrite operations are not transactional across separate Vercel Function instances. The in-process lock only coordinates requests within one instance. This remains suitable for personal, low-concurrency use, but avoid simultaneous edits/imports from multiple sessions.
-- Each successful visit writes one click event. The click CSV retains the latest 25,000 events. This adds Blob operations and can increase storage usage.
-- Embedded Mode depends on the destination allowing iframe embedding through its security policy. Use Normal Redirect for sites that block iframes.
-- Password protection gates access to the short link; it does not make the destination website itself private after access is granted.
-- Admin routes use HTTP Basic Authentication. Use a strong unique password and retain HTTPS.
-
-
-## Time zone
-All application timestamps, click analytics timestamps, and link expiration dates use India Standard Time (IST, Asia/Kolkata). Expiration date inputs are interpreted in IST.
+* Vercel serverless functions are ephemeral. Login rate limiting is in memory and therefore applies per running function instance, not globally across all instances. For stronger distributed rate limiting, use a shared rate limit store.
+* CSV writes are not transactional across separate Vercel function instances. The in process lock coordinates requests only within one instance. This remains intended for personal, low concurrency use. For higher concurrency, migrate link and event records to a database.
+* Click history retains the latest 25,000 events. Each click appends to the CSV and rewrites the click object, which can become expensive as traffic grows.
+* Unique visitors are estimates based on a daily salted hash of the request IP. They are not cross day identities and can be affected by shared networks, proxies, and changing IP addresses.
+* Country analytics depend on Vercel geo headers. Region and city fields may remain blank when the hosting platform does not provide those headers.
+* A/B allocation is stable for a visitor on a given day, not a permanent cross day assignment.
+* Country rules and device destinations apply to redirect and embedded links. A/B routing takes precedence over device routing, and country routing takes precedence over A/B routing.
+* The fallback URL field is retained in the CSV schema for compatibility and future use. It does not currently perform active destination health checks or automatic failover.
+* Embedded mode requires the destination website to permit iframe embedding. Some sites block it through CSP or X-Frame-Options.
+* Password protection gates access to the short link. It does not make the destination website private after access is granted.
+* Admin sessions require a stable `FLASK_SECRET_KEY` across deployments and function instances. Set it in Vercel before production use.
